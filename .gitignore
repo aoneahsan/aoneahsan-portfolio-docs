@@ -1,0 +1,10 @@
+node_modules/
+.docusaurus/
+build/
+.yarn/
+.pnp.*
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo

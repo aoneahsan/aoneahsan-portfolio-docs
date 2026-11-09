@@ -1,0 +1,10 @@
+{
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": null,
+    "types": ["node", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
+    "paths": {"@site/*": ["./*"]}
+  },
+  "include": ["docusaurus.config.ts", "sidebars.ts", "src/**/*", "plugins/**/*"]
+}

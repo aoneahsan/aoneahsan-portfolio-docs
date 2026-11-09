@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Public Sans';
+  src: url('/img/publicsans-var-latin.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/img/bricolage-var-latin.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/img/jetbrainsmono-var-latin.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root, html[data-theme='light'] {
+  --ifm-color-primary: #8b5400 !important;
+  --ifm-color-primary-dark: #7d4c00;
+  --ifm-color-primary-darker: #754700;
+  --ifm-color-primary-darkest: #613b00;
+  --ifm-color-primary-light: #995c00;
+  --ifm-color-primary-lighter: #a36300;
+  --ifm-color-primary-lightest: #b57000;
+  --ifm-font-family-base: 'Public Sans', system-ui, sans-serif;
+  --ifm-heading-font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', monospace;
+  --ifm-global-border-radius: 5px;
+  --ifm-navbar-height: 68px;
+  --ifm-background-color: #fbf7ef !important;
+  --ifm-background-surface-color: #fffdf8;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #f19600 !important;
+  --ifm-color-primary-dark: #d98900;
+  --ifm-color-primary-darker: #cc8000;
+  --ifm-color-primary-darkest: #a86a00;
+  --ifm-color-primary-light: #ffa11a;
+  --ifm-color-primary-lighter: #ffa926;
+  --ifm-color-primary-lightest: #ffbb4d;
+  --ifm-background-color: #110b06 !important;
+  --ifm-background-surface-color: #1c120b;
+  --ifm-font-color-base: #f5eee1;
+  --ifm-navbar-background-color: #1c120b;
+}
+
+.navbar__logo { height: 35px; }
+.navbar__brand { min-width: 0; }
+.navbar { border-bottom: 1px solid rgba(241, 150, 0, .16); }
+.theme-doc-sidebar-item-link-level-1.menu__list-item-collapsible--active,
+.menu__link--active { border-left: 3px solid var(--ifm-color-primary); }
+.table-wrapper, table { max-width: 100%; overflow-x: auto; }
+.markdown h1, .markdown h2 { letter-spacing: -.025em; }
+.markdown h1 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.05; }
+.markdown { max-width: 780px; }
+@media (max-width: 996px) { .navbar-sidebar { z-index: 20; } }
