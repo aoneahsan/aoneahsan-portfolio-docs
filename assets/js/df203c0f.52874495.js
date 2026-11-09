@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaoneahsan_portfolio_docs=self.webpackChunkaoneahsan_portfolio_docs||[]).push([["4380"],{9105(n,o,e){e.r(o),e.d(o,{default:()=>t});var s=e(4848);e(6540);var a=e(3572),r=e(2761);function t(n){return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(a.A,{children:(0,s.jsx)("meta",{name:"robots",content:"noindex, follow"})}),(0,s.jsx)(r.A,{...n})]})}}}]);
