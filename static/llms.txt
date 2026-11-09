@@ -3,8 +3,8 @@
 > Public guide to five ways of building software and how Ahsan Mahmood compares with each.
 
 - [Guide](https://docs.aoneahsan.com/)
-- [Comparison hub](https://docs.aoneahsan.com/compare)
-- [Sitemap](https://docs.aoneahsan.com/sitemap)
+- [Comparison hub](https://docs.aoneahsan.com/compare/)
+- [Sitemap](https://docs.aoneahsan.com/sitemap/)
 - [RSS feed](https://docs.aoneahsan.com/feed.xml)
 
 The main portfolio and current product pages are at https://aoneahsan.com/. The comparison pages show the date their examples were last checked.

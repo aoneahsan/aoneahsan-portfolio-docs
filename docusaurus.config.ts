@@ -10,7 +10,7 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'aoneahsan',
   projectName: 'aoneahsan-portfolio-docs',
-  trailingSlash: false,
+  trailingSlash: true,
   future: {v4: true, faster: true},
   onBrokenLinks: 'throw',
   markdown: {mermaid: true, format: 'detect', hooks: {onBrokenMarkdownLinks: 'throw'}},
@@ -35,7 +35,7 @@ const config: Config = {
     ['classic', {
       docs: {routeBasePath: '/', sidebarPath: './sidebars.ts', showLastUpdateTime: true, showLastUpdateAuthor: true},
       blog: false,
-      sitemap: {lastmod: 'date', changefreq: null, priority: null, ignorePatterns: ['/search', '/tags', '/tags/**']},
+      sitemap: {lastmod: 'date', changefreq: null, priority: null, ignorePatterns: ['**/search/**', '**/tags/**']},
       theme: {customCss: './src/css/custom.css'},
     }],
   ],
