@@ -3,6 +3,9 @@ import type {Config} from '@docusaurus/types';
 const siteUrl = 'https://docs.aoneahsan.com';
 
 const config: Config = {
+  headTags: [
+    {tagName: 'meta', attributes: {name: 'yandex-verification', content: 'bfb02722189028cf'}},
+  ],
   title: 'Ahsan Mahmood',
   tagline: 'Full-stack developer. I finish things, and finished means it runs without me.',
   favicon: 'img/favicon.ico',
