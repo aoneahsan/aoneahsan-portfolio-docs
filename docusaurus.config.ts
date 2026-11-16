@@ -36,7 +36,15 @@ const config: Config = {
   plugins: [require.resolve('./plugins/feed')],
   presets: [
     ['classic', {
-      docs: {routeBasePath: '/', sidebarPath: './sidebars.ts', showLastUpdateTime: true, showLastUpdateAuthor: true},
+      docs: {
+        routeBasePath: '/',
+        sidebarPath: './sidebars.ts',
+        // docs/PACKAGES.md is the fleet's fixed-path dependency record, never a published page.
+        // `exclude` replaces the defaults, so they are restated.
+        exclude: ['**/_*.{js,jsx,ts,tsx,md,mdx}', '**/_*/**', '**/*.test.{js,jsx,ts,tsx}', '**/__tests__/**', 'PACKAGES.md'],
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
+      },
       blog: false,
       sitemap: {lastmod: 'date', changefreq: null, priority: null, ignorePatterns: ['**/search/**', '**/tags/**']},
       theme: {customCss: './src/css/custom.css'},
