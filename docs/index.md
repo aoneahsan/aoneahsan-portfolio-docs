@@ -7,6 +7,8 @@ tags: [portfolio, work]
 
 I am Ahsan Mahmood, an AI-native full-stack developer in Lahore with 8+ years of hands-on experience. AI agents write most of my code now; I decide what they build, review it and confirm it works. That is one way to get software made. These are the other five, including the jobs where I would send you to them.
 
+**Find my work:** [aoneahsan.com](https://aoneahsan.com) · [the Android app on Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.app) · [all apps](/apps/)
+
 ## How I work now
 
 I can write all of this by hand, and for most of my career I did. I work through AI agents now because they produce code far faster than I can. I decide what gets built and how, I tell them, and I review what comes back. Nothing is finished until I have confirmed it is correct.

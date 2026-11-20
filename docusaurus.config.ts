@@ -1,4 +1,5 @@
 import type {Config} from '@docusaurus/types';
+import {OTHER_PLATFORMS} from './src/data/platforms';
 
 const siteUrl = 'https://docs.aoneahsan.com';
 
@@ -58,6 +59,15 @@ const config: Config = {
       logo: {alt: 'Ahsan Mahmood', src: 'img/logo-horizontal.svg', srcDark: 'img/logo-horizontal-reversed.svg'},
       items: [
         {to: '/compare', label: 'Compare', position: 'left'},
+        {
+          type: 'dropdown',
+          label: 'Get the app',
+          position: 'right',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})),
+            {label: 'All apps', to: '/apps/'},
+          ],
+        },
         {href: 'https://aoneahsan.com/projects', label: 'Projects', position: 'right'},
         {href: 'https://aoneahsan.com/contact', label: 'Contact', position: 'right'},
       ],
@@ -65,6 +75,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        {title: 'Get the app', items: [...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})), {label: 'All apps', to: '/apps/'}]},
         {title: 'Guide', items: [{label: 'Compare', to: '/compare'}, {label: 'Sitemap', to: '/sitemap'}, {label: 'Feed', to: '/feed'}]},
         {title: 'Ahsan Mahmood', items: [{label: 'Projects', href: 'https://aoneahsan.com/projects'}, {label: 'Contact', href: 'https://aoneahsan.com/contact'}]},
       ],
