@@ -25,7 +25,7 @@ export const PLATFORMS: readonly Platform[] = [
 ];
 
 export const APPS_PAGE = {
-  title: 'Where to find my work',
+  title: 'Get Ahsan Mahmood',
   description: 'Where to find Ahsan Mahmood\'s work: aoneahsan.com, the Android app on Google Play, and these pages.',
   lead: 'My website, the same portfolio as an Android app, and these longer pages.',
 } as const;

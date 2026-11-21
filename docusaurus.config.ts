@@ -61,11 +61,11 @@ const config: Config = {
         {to: '/compare', label: 'Compare', position: 'left'},
         {
           type: 'dropdown',
-          label: 'Get the app',
+          label: 'Get Ahsan Mahmood',
           position: 'right',
           items: [
             ...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})),
-            {label: 'All apps', to: '/apps/'},
+            {label: 'All places', to: '/apps/'},
           ],
         },
         {href: 'https://aoneahsan.com/projects', label: 'Projects', position: 'right'},
@@ -75,7 +75,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {title: 'Get the app', items: [...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})), {label: 'All apps', to: '/apps/'}]},
+        {title: 'Get Ahsan Mahmood', items: [...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})), {label: 'All places', to: '/apps/'}]},
         {title: 'Guide', items: [{label: 'Compare', to: '/compare'}, {label: 'Sitemap', to: '/sitemap'}, {label: 'Feed', to: '/feed'}]},
         {title: 'Ahsan Mahmood', items: [{label: 'Projects', href: 'https://aoneahsan.com/projects'}, {label: 'Contact', href: 'https://aoneahsan.com/contact'}]},
       ],

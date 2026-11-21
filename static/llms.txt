@@ -11,6 +11,6 @@ The main portfolio and current product pages are at https://aoneahsan.com/. The 
 
 ## Where to find the work
 
-- [All apps](https://docs.aoneahsan.com/apps/): every place Ahsan Mahmood's portfolio is published.
+- [All places](https://docs.aoneahsan.com/apps/): every place Ahsan Mahmood's portfolio is published.
 - [aoneahsan.com](https://aoneahsan.com)
 - [Android app on Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.app)
