@@ -1,6 +1,21 @@
+import {readdirSync, readFileSync} from 'node:fs';
 import {readFile, writeFile} from 'node:fs/promises';
 import path from 'node:path';
-import type {Plugin} from '@docusaurus/types';
+import type {LoadContext, Plugin} from '@docusaurus/types';
+
+/**
+ * Docusaurus ships the site config and every route module path to the browser, so a require.resolve() plugin or
+ * any other absolute path would publish this machine's folders in main.js. Fails the build when one appears.
+ */
+function assertNoLocalPaths(outDir: string, siteDir: string): void {
+  const jsDir = path.join(outDir, 'assets', 'js');
+  const forms = [siteDir.split(path.sep).join('/'), siteDir.split(path.sep).join('\\\\')];
+  for (const file of readdirSync(jsDir).filter((name) => name.endsWith('.js'))) {
+    const text = readFileSync(path.join(jsDir, file), 'utf8');
+    const found = forms.find((form) => text.includes(form));
+    if (found) throw new Error(`${file} carries the local path ${found}: name plugins by package or import them, never require.resolve()`);
+  }
+}
 
 const siteUrl = 'https://docs.aoneahsan.com';
 const pages = [
@@ -17,10 +32,11 @@ function escapeXml(value: string): string {
     .replaceAll('"', '&quot;').replaceAll("'", '&apos;');
 }
 
-export default function feedPlugin(): Plugin {
+export default function feedPlugin({siteDir}: LoadContext): Plugin {
   return {
     name: 'portfolio-comparison-feed',
     async postBuild({outDir}) {
+      assertNoLocalPaths(outDir, siteDir);
       const items = await Promise.all(pages.map(async ([filename, permalink]) => {
         const source = await readFile(path.join(process.cwd(), 'docs', filename), 'utf8');
         const title = source.match(/^title: "([^"]+)"/m)?.[1];

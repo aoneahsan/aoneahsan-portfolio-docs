@@ -1,4 +1,5 @@
 import type {Config} from '@docusaurus/types';
+import feedPlugin from './plugins/feed';
 import {OTHER_PLATFORMS} from './src/data/platforms';
 
 const siteUrl = 'https://docs.aoneahsan.com';
@@ -21,7 +22,9 @@ const config: Config = {
   i18n: {defaultLocale: 'en', locales: ['en'], localeConfigs: {en: {htmlLang: 'en-GB'}}},
   themes: [
     '@docusaurus/theme-mermaid',
-    [require.resolve('@easyops-cn/docusaurus-search-local'), {
+    // Named by package and imported plugins, never require.resolve(): Docusaurus ships the site config to the
+    // browser, and a resolved path would publish this machine's folders (plugins/feed.ts fails the build if it does).
+    ['@easyops-cn/docusaurus-search-local', {
       hashed: true,
       indexDocs: true,
       indexBlog: false,
@@ -34,7 +37,7 @@ const config: Config = {
       explicitSearchResultPath: true,
     }],
   ],
-  plugins: [require.resolve('./plugins/feed')],
+  plugins: [feedPlugin],
   presets: [
     ['classic', {
       docs: {
