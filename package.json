@@ -13,13 +13,15 @@
   },
   "scripts": {
     "start": "docusaurus start --port 5994",
-    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
+    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build && yarn seo:contract",
+    "seo:contract": "node plugins/seo-contract.mts",
     "serve": "docusaurus serve --port 5994",
     "typecheck": "tsc -b"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
     "@docusaurus/faster": "3.10.2",
+    "@docusaurus/plugin-client-redirects": "3.10.2",
     "@docusaurus/plugin-content-docs": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
     "@docusaurus/theme-common": "3.10.2",

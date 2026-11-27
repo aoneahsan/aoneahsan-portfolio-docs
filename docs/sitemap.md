@@ -2,13 +2,13 @@
 title: "Sitemap"
 description: "Every public page in Ahsan Mahmood's portfolio guide, with links to the XML sitemap and feed."
 slug: /sitemap
-tags: [navigation]
 ---
 
 ## Start here
 
 - [Ahsan Mahmood](/)
 - [Compare the ways to build](/compare)
+- [Every place my work is published: the website, the Android app and this guide](/apps/)
 
 ## The five routes
 

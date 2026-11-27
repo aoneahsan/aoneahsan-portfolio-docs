@@ -2,7 +2,6 @@
 title: "A marketplace freelancer or me — Ahsan Mahmood"
 description: "When a large freelancer marketplace is the better route, what its escrow really protects, and how you can check my work before writing to me."
 slug: /compare/freelancer-marketplace
-tags: [comparison, services]
 ---
 
 
@@ -22,6 +21,12 @@ A search box, a long list of profiles, and bids that arrive quickly. You choose 
 
 The person you get might be excellent. A rating tells you that earlier buyers were happy with earlier jobs, and those jobs may look nothing like yours.
 
+## What it costs
+
+Each marketplace publishes its own client fee on its own site, charged on top of the freelancer's rate, and the freelancer sets the rate.
+
+This page does not copy those figures. Read the fee page of the marketplace you use before you accept a bid, so the total is the one you agreed to.
+
 ## Where I am different
 
 You do not have to trust a rating. Everything I have built that can be shown is on this site with a link that opens it: 23 products are live today, and you can use them before you write to me.
@@ -29,6 +34,19 @@ You do not have to trust a rating. Everything I have built that can be shown is 
 Scoping happens on a call, before any number. A fixed number attached to an unscoped brief is a number one of us is going to be unhappy about, and the call is where I say whether I am the right person.
 
 The cost of that is time up front. A call and a written scope are slower than accepting a bid, and for a small job they are not worth it.
+
+## Who should pick which
+
+Each route in one line, me included. The page for each route says more.
+
+| Route | Pick it when |
+|---|---|
+| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
+| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
+| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
+| **A freelancer from a large marketplace** | Choose it for a small job with a clear finish. |
+| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
+| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
 
 ## What you can check
 
