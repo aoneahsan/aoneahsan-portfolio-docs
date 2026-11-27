@@ -89,6 +89,34 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   }
   const redirectSources = new Set(SEO_REDIRECTS.flatMap((r) => r.from));
   const sitemap = [...readFileSync(path.join(buildDir, 'sitemap.xml'), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1] ?? '');
+  const ecosystem = JSON.parse(readFileSync(path.join(siteDir, 'src/data/ecosystem.json'), 'utf8')) as {
+    sourceCommit: string;
+    currentProductId: string;
+    products: {id: string; liveUrl: string}[];
+  };
+  if (!/^[a-f0-9]{40}$/.test(ecosystem.sourceCommit)) problems.push('ecosystem source commit is missing');
+  if (ecosystem.products.length < 20) problems.push(`ecosystem has only ${ecosystem.products.length} releases`);
+  if (ecosystem.products.some((product) => product.id === ecosystem.currentProductId || !product.liveUrl)) problems.push('ecosystem contains this portfolio or a product without a live URL');
+  for (const product of ecosystem.products) {
+    const route = `/ecosystem/${product.id}/`;
+    if (!sitemap.includes(`${SITE_URL}${route}`)) problems.push(`${route} is missing from sitemap.xml`);
+    if (!existsSync(served(route))) { problems.push(`${route} has no prerendered detail page`); continue; }
+    const html = readFileSync(served(route), 'utf8');
+    if (!html.includes('SoftwareApplication') || !html.includes('BreadcrumbList')) problems.push(`${route} is missing product or breadcrumb schema`);
+    if (!html.includes(`href=${product.liveUrl}`)) problems.push(`${route} has no direct product link`);
+  }
+  const hubHtml = readFileSync(served('/ecosystem/'), 'utf8');
+  if (!hubHtml.includes('ItemList')) problems.push('/ecosystem/ has no ItemList schema');
+  const aboutHtml = readFileSync(served('/about-developer/'), 'utf8');
+  if (!aboutHtml.includes('AboutPage')) problems.push('/about-developer/ has no AboutPage schema');
+  for (const file of files) {
+    if (PAGE_EXCEPTIONS.has(file) || isRedirectPage(readFileSync(path.join(buildDir, file), 'utf8'))) continue;
+    const html = readFileSync(path.join(buildDir, file), 'utf8');
+    const showcase = html.indexOf('More from Zaions');
+    const footer = html.indexOf('<footer class="theme-layout-footer');
+    if (showcase < 0 || footer < 0 || showcase > footer) problems.push(`${file}: showcase is not before the footer`);
+    if (!html.includes('developed with love by the Zaions team')) problems.push(`${file}: footer credit is missing`);
+  }
   const metadataOwners = new Map<string, string>();
   if (sitemap.length < 5) problems.push(`sitemap.xml lists ${sitemap.length} URLs; the contract would pass vacuously`);
   for (const loc of sitemap) {

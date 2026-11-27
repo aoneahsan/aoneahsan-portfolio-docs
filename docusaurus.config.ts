@@ -118,6 +118,7 @@ const config: Config = {
       logo: {alt: 'Ahsan Mahmood', src: 'img/logo-horizontal.svg', srcDark: 'img/logo-horizontal-reversed.svg'},
       items: [
         {to: '/compare', label: 'Compare', position: 'left'},
+        {to: '/ecosystem/', label: 'Zaions products', position: 'left'},
         {
           type: 'dropdown',
           label: 'Get Ahsan Mahmood',
@@ -135,10 +136,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {title: 'Get Ahsan Mahmood', items: [...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})), {label: 'All places', to: '/apps/'}]},
-        {title: 'Guide', items: [{label: 'Compare', to: '/compare'}, {label: 'Sitemap', to: '/sitemap'}, {label: 'Feed', to: '/feed'}]},
-        {title: 'Ahsan Mahmood', items: [{label: 'Projects', href: 'https://aoneahsan.com/projects'}, {label: 'Contact', href: 'https://aoneahsan.com/contact'}]},
+        {title: 'Guide', items: [{label: 'Compare', to: '/compare'}, {label: 'Zaions products', to: '/ecosystem/'}, {label: 'Sitemap', to: '/sitemap'}, {label: 'Feed', to: '/feed'}]},
+        {title: 'Ahsan Mahmood', items: [{label: 'About the developer', to: '/about-developer/'}, {label: 'Projects', href: 'https://aoneahsan.com/projects'}, {label: 'Contact', href: 'https://aoneahsan.com/contact'}]},
       ],
-      copyright: 'Ahsan Mahmood',
+      copyright: 'Ahsan Mahmood — developed with love by the Zaions team',
     },
   },
 };

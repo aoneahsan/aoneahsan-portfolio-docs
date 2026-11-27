@@ -1,0 +1,581 @@
+{
+  "sourceCommit": "28dacd6488c46ebd595bebde1c91b70c8c6a20d3",
+  "currentProductId": "aoneahsan-portfolio",
+  "products": [
+    {
+      "id": "achat",
+      "name": "AchatAI",
+      "category": "web-app",
+      "liveUrl": "https://achat.aoneahsan.com",
+      "docsUrl": "https://achat-docs.aoneahsan.com",
+      "card": "A username, invite link or QR code can start a conversation without a phone number.",
+      "question": "How can people connect without sharing a phone number?",
+      "intro": "AChat makes the first contact a choice. I can point to its web and Android app, and to the three ways someone can find another person without exchanging a phone number.",
+      "sections": [
+        {
+          "heading": "What changes at the first invitation?",
+          "body": "A username, invitation link or QR code gives a person a way to reach someone they chose. That is a narrower request than handing over a phone number. The product also has anonymous rooms that can be opened without an account."
+        },
+        {
+          "heading": "What can a visitor inspect?",
+          "body": "The released web app is the direct destination here. The roster also records an Android surface. I would check those actual entry points before describing a messaging experience as shipped."
+        },
+        {
+          "heading": "Where is the boundary?",
+          "body": "The published facts describe discovery and anonymous rooms. They do not promise that every conversation is anonymous or that no information is ever stored. A useful portfolio page should keep that distinction visible."
+        }
+      ],
+      "logo": "/img/ecosystem/achat.svg"
+    },
+    {
+      "id": "callvault",
+      "name": "CallVault",
+      "category": "mobile-app",
+      "liveUrl": "https://callvault.aoneahsan.com",
+      "docsUrl": "https://callvault-docs.aoneahsan.com",
+      "card": "Record, find and export a call on Android; backup is a separate choice.",
+      "question": "When does a call recording leave the phone?",
+      "intro": "CallVault keeps the phone library at the centre of the experience. A person can play, search, annotate and export recordings there; private cloud backup is something they choose to enable.",
+      "sections": [
+        {
+          "heading": "What can the device record?",
+          "body": "The app records calls through the audio source a phone makes available. That qualification matters: Android devices and call routes differ, so the page should not promise a uniform capture result on every handset."
+        },
+        {
+          "heading": "How is a recording found later?",
+          "body": "Playback, search and notes make a recording useful after the call. Export is an explicit action from the phone library rather than a reason to move every file to a server by default."
+        },
+        {
+          "heading": "What stays under the user’s control?",
+          "body": "The roster says recordings stay on the phone unless private cloud backup is enabled. I would check that choice in the app before describing its data flow more broadly."
+        }
+      ],
+      "logo": "/img/ecosystem/callvault.svg"
+    },
+    {
+      "id": "capacitor-auth-manager",
+      "name": "Capacitor Auth Manager",
+      "category": "package",
+      "liveUrl": "https://www.npmjs.com/package/capacitor-auth-manager",
+      "docsUrl": "https://capacitor-auth-manager-docs.aoneahsan.com",
+      "card": "One Google sign-in call across web, Android and iOS, without a Firebase dependency.",
+      "question": "How much sign-in code should three app targets share?",
+      "intro": "Capacitor Auth Manager is a package I can inspect as code and on npm. Its current public contract offers one Google sign-in call for web, Android and iOS.",
+      "sections": [
+        {
+          "heading": "What does the package put behind one call?",
+          "body": "The package spans a browser and two native app targets. That gives a product team one public entry point for Google sign-in while the platform behaviour remains inside the package."
+        },
+        {
+          "heading": "What dependency does it avoid?",
+          "body": "Firebase is not required as a dependency. That is a concrete integration boundary, not a promise about every application that might use the package."
+        },
+        {
+          "heading": "Which provider is actually present?",
+          "body": "Google is the only enabled provider in version 3.x. I would rather name the available path than imply a menu of providers that the release does not contain."
+        }
+      ],
+      "logo": "/img/ecosystem/capacitor-auth-manager.svg"
+    },
+    {
+      "id": "clearhire",
+      "name": "ClearHire",
+      "category": "web-app",
+      "liveUrl": "https://clearhire.aoneahsan.com",
+      "docsUrl": "https://clearhire-docs.aoneahsan.com",
+      "card": "A structured profile feeds an ATS-friendly resume and employment checks.",
+      "question": "What evidence can sit behind a resume?",
+      "intro": "ClearHire brings resume writing and work-history verification into one career workflow. Its structured profile is the starting record rather than a pile of separately edited copies.",
+      "sections": [
+        {
+          "heading": "How is the resume assembled?",
+          "body": "The product has an ATS-friendly builder with structured profiles. Its career tools include bullet writing and ATS checks; the roster records 50 or more tools, not an outcome guarantee for a job search."
+        },
+        {
+          "heading": "What adds trust to work history?",
+          "body": "Verified-employment workflows attach a checkable process to a claim; an employer still judges it."
+        },
+        {
+          "heading": "What can be opened now?",
+          "body": "The released product is linked directly. A hiring manager can inspect its actual resume and profile flow before deciding what the claims mean in practice."
+        }
+      ],
+      "logo": "/img/ecosystem/clearhire.svg"
+    },
+    {
+      "id": "eatthis",
+      "name": "Eat This",
+      "category": "mobile-app",
+      "liveUrl": "https://eatthis.aoneahsan.com/",
+      "docsUrl": "https://eatthis-docs.aoneahsan.com/",
+      "card": "Search food by nutrient, feeling or time, then see one serving’s contribution.",
+      "question": "What does one serving actually provide?",
+      "intro": "Eat This starts with the way a person is choosing food: a nutrient, a feeling or a time of day. The result is grounded in a serving rather than an unexplained recommendation.",
+      "sections": [
+        {
+          "heading": "How does the search begin?",
+          "body": "Someone can search by nutrient, feeling or time of day. That makes three distinct ways into the same food choice, without requiring the person to know a food name first."
+        },
+        {
+          "heading": "What does the result quantify?",
+          "body": "The app shows how much of a nutrient one serving gives and identifies a cheap pick. A serving is the unit that lets a person compare a result with what they might actually eat."
+        },
+        {
+          "heading": "Where does the app stop?",
+          "body": "Food search flags when a question belongs with a doctor; it does not give medical advice."
+        }
+      ],
+      "logo": "/img/ecosystem/eatthis.svg"
+    },
+    {
+      "id": "empora",
+      "name": "Empora",
+      "category": "wordpress-plugin-saas",
+      "liveUrl": "https://empora.aoneahsan.com",
+      "docsUrl": "https://empora-docs.aoneahsan.com",
+      "card": "A WooCommerce merchant can turn on the store modules they need.",
+      "question": "Can a store install one plugin without adopting every module?",
+      "intro": "Empora groups WooCommerce modules in one WordPress plugin. The useful choice is at the merchant’s end: which modules to switch on for that store.",
+      "sections": [
+        {
+          "heading": "What does the plugin contain?",
+          "body": "The released product puts store modules in one plugin. The roster does not enumerate each module here, so I would send a merchant to the live product for its current list."
+        },
+        {
+          "heading": "Where does configuration happen?",
+          "body": "A web dashboard handles licences and optional store connections. That makes the plugin and the management surface two parts of the same released workflow."
+        },
+        {
+          "heading": "Which decision stays with the merchant?",
+          "body": "Modules can be switched on selectively. That is a more useful description than assuming every WooCommerce store wants the same set of additions."
+        }
+      ],
+      "logo": "/img/ecosystem/empora.svg"
+    },
+    {
+      "id": "habitforge",
+      "name": "HabitForge",
+      "category": "web-app",
+      "liveUrl": "https://habitforge.aoneahsan.com",
+      "docsUrl": "https://habitforge-docs.aoneahsan.com",
+      "card": "A rope thickens with check-ins and frays where consistency stopped.",
+      "question": "What does a habit history show when a streak breaks?",
+      "intro": "HabitForge makes consistency visible as a rope. The mark changes with check-ins and also shows where a person stopped, which is more honest than showing only a successful count.",
+      "sections": [
+        {
+          "heading": "How does the record look?",
+          "body": "The rope thickens with each check-in and frays at a gap. The shape communicates a history that a single streak number would flatten."
+        },
+        {
+          "heading": "Can the habit be social?",
+          "body": "The roster records friends, challenges and a leaderboard that a person can leave. Those are options around the personal record, not a condition for keeping it."
+        },
+        {
+          "heading": "Where does it run?",
+          "body": "The current web and Android apps can be inspected directly."
+        }
+      ],
+      "logo": "/img/ecosystem/habitforge.svg"
+    },
+    {
+      "id": "labflow",
+      "name": "LabFlow",
+      "category": "web-app",
+      "liveUrl": "https://labflow.aoneahsan.com",
+      "docsUrl": "https://labflow-docs.aoneahsan.com",
+      "card": "A laboratory result travels from draft through validation to release.",
+      "question": "When is a lab result ready to leave the workflow?",
+      "intro": "LabFlow joins patients, orders, samples and results in one laboratory system. Its meaningful boundary is the validation step between a draft result and a released one.",
+      "sections": [
+        {
+          "heading": "What is kept together?",
+          "body": "Patient and order records sit alongside samples and results. Billing, inventory and quality control are part of the published product too, so the result does not live in an isolated form."
+        },
+        {
+          "heading": "What happens before release?",
+          "body": "The roster names a validation workflow from draft to released. That is the step I would inspect when assessing whether the software respects the way a laboratory works."
+        },
+        {
+          "heading": "What does this page claim?",
+          "body": "It describes the product workflow, not clinical accuracy or a regulatory certification. Those would need their own evidence and are not supplied by a portfolio link."
+        }
+      ],
+      "logo": "/img/ecosystem/labflow.svg"
+    },
+    {
+      "id": "lifewell",
+      "name": "LifeWell",
+      "category": "web-app",
+      "liveUrl": "https://lifewell.aoneahsan.com",
+      "docsUrl": "https://lifewell-docs.aoneahsan.com",
+      "card": "Vitals, medicines, sleep and more can live in one personal health record.",
+      "question": "Which health notes belong together?",
+      "intro": "LifeWell gathers daily health records on web and Android. It covers vitals, water, medicines, sleep and nutrition, plus periods, fertility and baby milestones.",
+      "sections": [
+        {
+          "heading": "What can a person record?",
+          "body": "Measurements, routines and milestones live in one account, so a person can return to one record."
+        },
+        {
+          "heading": "How many surfaces are recorded?",
+          "body": "Web and Android are listed, with sync across devices. I can link to the released product so a visitor can inspect that behaviour directly."
+        },
+        {
+          "heading": "Where is the boundary?",
+          "body": "This is a record-keeping app. The roster does not claim diagnosis or treatment, and neither should a page about the engineering work behind it."
+        }
+      ],
+      "logo": "/img/ecosystem/lifewell.svg"
+    },
+    {
+      "id": "linux-cleanup",
+      "name": "linux-cleanup",
+      "category": "desktop-app-cli",
+      "liveUrl": "https://linux-cleanup.aoneahsan.com/",
+      "docsUrl": "https://linux-cleanup-docs.aoneahsan.com/",
+      "card": "Inspect cache paths and run a dry run before Linux cleanup removes anything.",
+      "question": "What can a cleanup tool show before deletion?",
+      "intro": "linux-cleanup names the paths it can remove, exposes its limits and runs a dry run before a real removal. The point I would inspect is the decision before the destructive action.",
+      "sections": [
+        {
+          "heading": "What can be previewed?",
+          "body": "The desktop app shows cache paths and its boundaries before a person runs a removal. The command line has scan and dry-run commands that never delete."
+        },
+        {
+          "heading": "What ships on Linux?",
+          "body": "The roster records an x86_64 desktop app distributed as AppImage and .deb, plus an MIT-licensed command line available through npx. A real removal produces a receipt."
+        },
+        {
+          "heading": "Which promise is deliberately narrow?",
+          "body": "The dry run is a preview, not permission to delete personal files. A cleanup product is credible when the exact path and consequence are visible before a click."
+        }
+      ],
+      "logo": "/img/ecosystem/linux-cleanup.svg"
+    },
+    {
+      "id": "macleanup",
+      "name": "macleanup",
+      "category": "desktop-app-cli",
+      "liveUrl": "https://github.com/aoneahsan/macleanup",
+      "docsUrl": null,
+      "card": "See a macOS cleanup dry run while personal folders remain outside its reach.",
+      "question": "Which folders should a maintenance tool refuse?",
+      "intro": "macleanup carries a macOS section catalogue and a real dry run. Its published boundary is unusually clear: personal folders are refused unconditionally.",
+      "sections": [
+        {
+          "heading": "What appears before removal?",
+          "body": "A person can preview the sections and run a dry run before changing the machine. That gives them a chance to read the proposed work."
+        },
+        {
+          "heading": "What is excluded?",
+          "body": "Personal folders are outside the tool’s permitted targets. I would treat that as an implementation rule to verify, not a line of reassuring copy."
+        },
+        {
+          "heading": "Where can it be inspected?",
+          "body": "The public repository shows the current macOS tool."
+        }
+      ],
+      "logo": "/img/ecosystem/macleanup.svg"
+    },
+    {
+      "id": "native-update",
+      "name": "Native Update",
+      "category": "saas-package",
+      "liveUrl": "https://nativeupdate.aoneahsan.com",
+      "docsUrl": "https://nativeupdate-docs.aoneahsan.com",
+      "card": "A Capacitor web-bundle correction can ship while the next store build is prepared.",
+      "question": "Which app changes can ship while store review waits?",
+      "intro": "Native Update gives a Capacitor app a route for updating its web bundle over the air. It also covers store-update and review prompts; native code still requires a store build.",
+      "sections": [
+        {
+          "heading": "What changes without a store release?",
+          "body": "JavaScript, HTML, CSS and assets in a supported bundle can be delivered to an installed app. A native plugin or manifest change remains a new binary. That line decides which release path a developer can safely use."
+        },
+        {
+          "heading": "How does a team manage a release?",
+          "body": "The hosted dashboard and management API accompany the open-source self-hostable backend."
+        },
+        {
+          "heading": "What matters after delivery?",
+          "body": "An update path has to verify what it downloads and recover if a bundle fails. Fast delivery is useful only when the app can still start after the change."
+        }
+      ],
+      "logo": "/img/ecosystem/native-update.svg"
+    },
+    {
+      "id": "netcage",
+      "name": "NetCage",
+      "category": "mobile-app",
+      "liveUrl": "https://netcage.aoneahsan.com",
+      "docsUrl": "https://netcage-docs.aoneahsan.com",
+      "card": "Block one Android app’s Wi-Fi or mobile data while the rest of the phone stays online.",
+      "question": "Can one app go offline without disconnecting the phone?",
+      "intro": "NetCage controls network access for selected Android apps. A rule can target Wi-Fi, mobile data or both; the rest of the phone can stay connected.",
+      "sections": [
+        {
+          "heading": "What does a rule target?",
+          "body": "The selected app and connection type are the decision. That is narrower than switching off Wi-Fi or mobile data for the whole device."
+        },
+        {
+          "heading": "Can rules repeat?",
+          "body": "Profiles group apps and apply rules on chosen days and times. The roster establishes the scheduling capability, while the live product shows how those choices are made."
+        },
+        {
+          "heading": "What should a visitor check?",
+          "body": "A rule should make its target and effect clear before it changes connectivity."
+        }
+      ],
+      "logo": "/img/ecosystem/netcage.svg"
+    },
+    {
+      "id": "pregnancypal",
+      "name": "PregnancyPal",
+      "category": "web-app",
+      "liveUrl": "https://pregnancypal.aoneahsan.com",
+      "docsUrl": "https://pregnancypal-docs.aoneahsan.com",
+      "card": "Week-by-week notes can leave the app as a doctor-friendly PDF.",
+      "question": "How can pregnancy notes travel to an appointment?",
+      "intro": "PregnancyPal keeps week-by-week information alongside a person’s own notes on vitals, symptoms, mood and appointments. A PDF export gives the record a form they can bring to a clinician.",
+      "sections": [
+        {
+          "heading": "What is recorded over time?",
+          "body": "The roster names weekly tracking, nutrition and exercise, plus vitals, symptoms, mood and appointments. Those records are useful because they can be revisited in order."
+        },
+        {
+          "heading": "What does the export change?",
+          "body": "A doctor-friendly PDF can be shared outside the app. The person decides when to create that document and whom to show it to."
+        },
+        {
+          "heading": "Where does the product stop?",
+          "body": "The app organises information. It does not replace a clinical assessment; that boundary should be visible anywhere its features are described."
+        }
+      ],
+      "logo": "/img/ecosystem/pregnancypal.svg"
+    },
+    {
+      "id": "rentparty",
+      "name": "RentParty",
+      "category": "web-app",
+      "liveUrl": "https://rentparty.aoneahsan.com",
+      "docsUrl": "https://rentparty-docs.aoneahsan.com",
+      "card": "Pass one phone around, play a CPU character or open an online room.",
+      "question": "How does a property game keep its place between sessions?",
+      "intro": "Rent Party is a property-trading game that can be paused. The bank and deeds remain in place when players return, whether they chose a shared phone, CPU opponents or an online room.",
+      "sections": [
+        {
+          "heading": "Who can join a game?",
+          "body": "Players can pass one phone around, play against CPU characters or open an online room. Those are distinct ways to gather a table without changing the underlying game."
+        },
+        {
+          "heading": "What does the game remember?",
+          "body": "The product handles the bank and keeps deeds in place on resume. That continuity is the reason a paused match can remain a match rather than becoming a new setup."
+        },
+        {
+          "heading": "What can be checked?",
+          "body": "The released game is linked directly. A visitor can inspect the actual flow rather than infer rules from a screenshot of a board."
+        }
+      ],
+      "logo": "/img/ecosystem/rentparty.svg"
+    },
+    {
+      "id": "smsapp",
+      "name": "SMS App",
+      "category": "mobile-app",
+      "liveUrl": "https://smsapp.aoneahsan.com",
+      "docsUrl": "https://smsapp-docs.aoneahsan.com",
+      "card": "Send single, batch or scheduled SMS from a registered Android device.",
+      "question": "Where does a scheduled SMS actually leave from?",
+      "intro": "SMS App uses a person’s own Android device to send messages. The published flows include single, batch and scheduled sends, with device registration and volunteer-pool management.",
+      "sections": [
+        {
+          "heading": "What is the sending device?",
+          "body": "The Android phone is the sending endpoint. That is a concrete architecture choice, and it changes what a user should check before relying on a scheduled send."
+        },
+        {
+          "heading": "Which workflows are public?",
+          "body": "Single messages, batches and schedules are in the roster. Device registration and volunteer-pool management are also recorded, but this page does not invent delivery guarantees."
+        },
+        {
+          "heading": "Where can the route be inspected?",
+          "body": "The live product is linked here. I would verify a send against its actual Android receipt, not treat a queued status as proof that a phone sent the message."
+        }
+      ],
+      "logo": "/img/ecosystem/smsapp.svg"
+    },
+    {
+      "id": "strata-storage",
+      "name": "Strata Storage",
+      "category": "package",
+      "liveUrl": "https://www.npmjs.com/package/strata-storage",
+      "docsUrl": "https://stratastorage-docs.aoneahsan.com",
+      "card": "One API reaches browser storage and native Keychain or Keystore.",
+      "question": "What stays consistent when an app moves from web to native?",
+      "intro": "strata-storage presents one interface over localStorage, IndexedDB, cookies and native storage. It has zero dependencies and supports web, iOS and Android.",
+      "sections": [
+        {
+          "heading": "Which layers sit behind the API?",
+          "body": "The browser layers cover localStorage, IndexedDB and cookies. On native devices, the package includes Keychain and Keystore support."
+        },
+        {
+          "heading": "Why is one interface useful?",
+          "body": "A caller can use the same package across the app’s surfaces while choosing the storage layer that fits the data. The API contract is the part a developer can inspect on npm."
+        },
+        {
+          "heading": "What is the published limit?",
+          "body": "The package docs distinguish persistence and security across storage layers."
+        }
+      ],
+      "logo": "/img/ecosystem/strata-storage.svg"
+    },
+    {
+      "id": "tilawah",
+      "name": "Tilawah",
+      "category": "web-app",
+      "liveUrl": "https://tilawah.aoneahsan.com",
+      "docsUrl": null,
+      "card": "Recorded Tajweed and Tafseer lessons sit beside self-paced progress.",
+      "question": "How does a learner return to a recitation lesson?",
+      "intro": "Tilawah offers recorded Tajweed and Tafseer lessons with progress tracking. A learner can study at their own pace and book live one-on-one recitation sessions in their timezone.",
+      "sections": [
+        {
+          "heading": "What is available without a booking?",
+          "body": "The recorded lessons and progress record support self-paced study. The roster does not claim a particular curriculum length or learning outcome."
+        },
+        {
+          "heading": "When does a teacher join?",
+          "body": "Live one-on-one recitation sessions can be booked in the learner’s timezone. That is a separate path from opening a recorded lesson."
+        },
+        {
+          "heading": "What can a visitor open?",
+          "body": "The live site shows current lessons and booking."
+        }
+      ],
+      "logo": "/img/ecosystem/tilawah.svg"
+    },
+    {
+      "id": "trizlink",
+      "name": "Trizlink",
+      "category": "web-app",
+      "liveUrl": "https://trizlink.com",
+      "docsUrl": "https://docs.trizlink.com",
+      "card": "A branded short link and a link-in-bio page share one analytics home.",
+      "question": "What happens after a short link is shared?",
+      "intro": "Trizlink combines branded short links, link-in-bio pages and click analytics. Custom slugs and domains make the destination recognisable before a visitor follows it.",
+      "sections": [
+        {
+          "heading": "What does a creator publish?",
+          "body": "A creator can make a short link with a custom slug or a link-in-bio page. Custom domains are part of the published product."
+        },
+        {
+          "heading": "What can they measure?",
+          "body": "The roster records click analytics. I would inspect the product’s current reporting before claiming a specific metric or attribution method."
+        },
+        {
+          "heading": "Where do the utilities fit?",
+          "body": "More than 50 built-in utilities are listed, but the core link workflow remains the reason to open Trizlink. A utility count does not describe how a link resolves."
+        }
+      ],
+      "logo": "/img/ecosystem/trizlink.svg"
+    },
+    {
+      "id": "video-controls-plus",
+      "name": "Video Controls Plus",
+      "category": "browser-extension",
+      "liveUrl": "https://vcpeai.aoneahsan.com",
+      "docsUrl": "https://vcpeai-docs.aoneahsan.com",
+      "card": "Frame-step, loop and annotate HTML5 video across sites.",
+      "question": "What can a viewer do beyond pressing play?",
+      "intro": "Video Controls Plus adds detailed controls to HTML5 video: a broad speed range, an A–B loop, frame stepping, audio boost, filters, screenshots and timestamped notes.",
+      "sections": [
+        {
+          "heading": "How precise can playback be?",
+          "body": "The published speed range is 0.1× to 16×. A–B looping and frame stepping give a viewer ways to repeat or inspect a small part of a video."
+        },
+        {
+          "heading": "What can be kept from a moment?",
+          "body": "Screenshots and timestamped notes attach something useful to a point in playback. The roster also records audio boost up to 400% and colour filters."
+        },
+        {
+          "heading": "How is it operated?",
+          "body": "More than 40 shortcuts are listed. The released extension site is the place to inspect the current controls and their settings."
+        }
+      ],
+      "logo": "/img/ecosystem/video-controls-plus.svg"
+    },
+    {
+      "id": "waylock",
+      "name": "Waylock",
+      "category": "mobile-app",
+      "liveUrl": "https://waylock.aoneahsan.com",
+      "docsUrl": "https://waylock-docs.aoneahsan.com",
+      "card": "Keep chosen stops fixed while the rest of an Android route is reordered.",
+      "question": "What happens to a planned route after a wrong turn?",
+      "intro": "Waylock sits over Google Maps for drivers and couriers. A driver can hold chosen stops in place, order the rest and keep the chosen route visible after a wrong turn.",
+      "sections": [
+        {
+          "heading": "What is fixed before departure?",
+          "body": "Chosen stops can stay in place while other stops are ordered around them. That lets a driver protect a commitment without freezing every part of the day."
+        },
+        {
+          "heading": "What appears after a detour?",
+          "body": "The chosen route remains visible beside an option to return or take a new route. A wrong turn does not silently erase the plan the driver made."
+        },
+        {
+          "heading": "Where is the platform boundary?",
+          "body": "It is a planning layer over Google Maps, not a replacement for it."
+        }
+      ],
+      "logo": "/img/ecosystem/waylock.svg"
+    },
+    {
+      "id": "windowsweep",
+      "name": "windowsweep",
+      "category": "desktop-app-cli",
+      "liveUrl": "https://windowsweep.aoneahsan.com",
+      "docsUrl": null,
+      "card": "Name every Windows cleanup path and run a dry run before removal.",
+      "question": "What should a Windows cleanup receipt tell you?",
+      "intro": "windowsweep is a Windows cleanup command line and desktop app. It names paths before touching them, has 30 sections and runs a real dry run without network calls.",
+      "sections": [
+        {
+          "heading": "What happens before a delete?",
+          "body": "A dry run lists what would be touched. Personal files are chosen row by row, so a broad category is not treated as blanket permission."
+        },
+        {
+          "heading": "How can it be run?",
+          "body": "The published routes include npx windowsweep and a Windows desktop app. The command line needs no separate installer for the npx path."
+        },
+        {
+          "heading": "What is the trust boundary?",
+          "body": "The documented dry run names paths and makes no network calls."
+        }
+      ],
+      "logo": "/img/ecosystem/windowsweep.svg"
+    },
+    {
+      "id": "ztools",
+      "name": "ZTools",
+      "category": "web-app",
+      "liveUrl": "https://ztools.zaions.com",
+      "docsUrl": "https://ztools-docs.zaions.com",
+      "card": "Browser-based formatters, converters and generators in one searchable toolbox.",
+      "question": "Where should a one-off developer utility live?",
+      "intro": "ZTools gathers developer and creator utilities in one searchable browser toolbox. Its published set includes formatters, converters, encoders and generators.",
+      "sections": [
+        {
+          "heading": "What is the entry point?",
+          "body": "A person can search the toolbox for the utility they need. That is more useful than scattering small tools across unrelated product sites."
+        },
+        {
+          "heading": "Where does the work run?",
+          "body": "The roster says the tools run in the browser and work offline. I would inspect a specific utility before making a stronger data-flow claim about it."
+        },
+        {
+          "heading": "What stays consistent?",
+          "body": "Search and dark mode bring the tool catalogue together."
+        }
+      ],
+      "logo": "/img/ecosystem/ztools.svg"
+    }
+  ]
+}

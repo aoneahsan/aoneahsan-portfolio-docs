@@ -4,6 +4,8 @@
 
 - [Guide](https://docs.aoneahsan.com/)
 - [Comparison hub](https://docs.aoneahsan.com/compare/)
+- [Released Zaions products](https://docs.aoneahsan.com/ecosystem/)
+- [About the developer](https://docs.aoneahsan.com/about-developer/)
 - [Sitemap](https://docs.aoneahsan.com/sitemap/)
 - [RSS feed](https://docs.aoneahsan.com/feed.xml)
 

@@ -1,0 +1,35 @@
+---
+title: "SMS App — a released Zaions product"
+description: "Send single, batch or scheduled SMS from a registered Android device."
+slug: /ecosystem/smsapp
+---
+
+import EcosystemStructuredData from '@site/src/components/EcosystemStructuredData';
+
+<EcosystemStructuredData id="smsapp" />
+
+![SMS App mark](/img/ecosystem/smsapp.svg)
+
+SMS App uses a person’s own Android device to send messages. The published flows include single, batch and scheduled sends, with device registration and volunteer-pool management.
+
+**The question:** Where does a scheduled SMS actually leave from?
+
+## What is the sending device?
+
+The Android phone is the sending endpoint. That is a concrete architecture choice, and it changes what a user should check before relying on a scheduled send.
+
+## Which workflows are public?
+
+Single messages, batches and schedules are in the roster. Device registration and volunteer-pool management are also recorded, but this page does not invent delivery guarantees.
+
+## Where can the route be inspected?
+
+The live product is linked here. I would verify a send against its actual Android receipt, not treat a queued status as proof that a phone sent the message.
+
+## Open the release
+
+[Visit SMS App](https://smsapp.aoneahsan.com)
+
+[Read SMS App documentation](https://smsapp-docs.aoneahsan.com)
+
+[See all released Zaions products](/ecosystem/)

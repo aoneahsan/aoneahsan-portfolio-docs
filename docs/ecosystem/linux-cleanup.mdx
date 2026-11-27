@@ -1,0 +1,35 @@
+---
+title: "linux-cleanup — a released Zaions product"
+description: "Inspect cache paths and run a dry run before Linux cleanup removes anything."
+slug: /ecosystem/linux-cleanup
+---
+
+import EcosystemStructuredData from '@site/src/components/EcosystemStructuredData';
+
+<EcosystemStructuredData id="linux-cleanup" />
+
+![linux-cleanup mark](/img/ecosystem/linux-cleanup.svg)
+
+linux-cleanup names the paths it can remove, exposes its limits and runs a dry run before a real removal. The point I would inspect is the decision before the destructive action.
+
+**The question:** What can a cleanup tool show before deletion?
+
+## What can be previewed?
+
+The desktop app shows cache paths and its boundaries before a person runs a removal. The command line has scan and dry-run commands that never delete.
+
+## What ships on Linux?
+
+The roster records an x86_64 desktop app distributed as AppImage and .deb, plus an MIT-licensed command line available through npx. A real removal produces a receipt.
+
+## Which promise is deliberately narrow?
+
+The dry run is a preview, not permission to delete personal files. A cleanup product is credible when the exact path and consequence are visible before a click.
+
+## Open the release
+
+[Visit linux-cleanup](https://linux-cleanup.aoneahsan.com/)
+
+[Read linux-cleanup documentation](https://linux-cleanup-docs.aoneahsan.com/)
+
+[See all released Zaions products](/ecosystem/)

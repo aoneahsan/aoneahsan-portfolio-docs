@@ -1,0 +1,35 @@
+---
+title: "Strata Storage — a released Zaions product"
+description: "One API reaches browser storage and native Keychain or Keystore."
+slug: /ecosystem/strata-storage
+---
+
+import EcosystemStructuredData from '@site/src/components/EcosystemStructuredData';
+
+<EcosystemStructuredData id="strata-storage" />
+
+![Strata Storage mark](/img/ecosystem/strata-storage.svg)
+
+strata-storage presents one interface over localStorage, IndexedDB, cookies and native storage. It has zero dependencies and supports web, iOS and Android.
+
+**The question:** What stays consistent when an app moves from web to native?
+
+## Which layers sit behind the API?
+
+The browser layers cover localStorage, IndexedDB and cookies. On native devices, the package includes Keychain and Keystore support.
+
+## Why is one interface useful?
+
+A caller can use the same package across the app’s surfaces while choosing the storage layer that fits the data. The API contract is the part a developer can inspect on npm.
+
+## What is the published limit?
+
+The package docs distinguish persistence and security across storage layers.
+
+## Open the release
+
+[Visit Strata Storage](https://www.npmjs.com/package/strata-storage)
+
+[Read Strata Storage documentation](https://stratastorage-docs.aoneahsan.com)
+
+[See all released Zaions products](/ecosystem/)

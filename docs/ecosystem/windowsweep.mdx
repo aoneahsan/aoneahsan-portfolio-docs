@@ -1,0 +1,33 @@
+---
+title: "windowsweep — a released Zaions product"
+description: "Name every Windows cleanup path and run a dry run before removal."
+slug: /ecosystem/windowsweep
+---
+
+import EcosystemStructuredData from '@site/src/components/EcosystemStructuredData';
+
+<EcosystemStructuredData id="windowsweep" />
+
+![windowsweep mark](/img/ecosystem/windowsweep.svg)
+
+windowsweep is a Windows cleanup command line and desktop app. It names paths before touching them, has 30 sections and runs a real dry run without network calls.
+
+**The question:** What should a Windows cleanup receipt tell you?
+
+## What happens before a delete?
+
+A dry run lists what would be touched. Personal files are chosen row by row, so a broad category is not treated as blanket permission.
+
+## How can it be run?
+
+The published routes include npx windowsweep and a Windows desktop app. The command line needs no separate installer for the npx path.
+
+## What is the trust boundary?
+
+The documented dry run names paths and makes no network calls.
+
+## Open the release
+
+[Visit windowsweep](https://windowsweep.aoneahsan.com)
+
+[See all released Zaions products](/ecosystem/)

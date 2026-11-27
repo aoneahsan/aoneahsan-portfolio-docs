@@ -1,0 +1,35 @@
+---
+title: "Capacitor Auth Manager — a released Zaions product"
+description: "One Google sign-in call across web, Android and iOS, without a Firebase dependency."
+slug: /ecosystem/capacitor-auth-manager
+---
+
+import EcosystemStructuredData from '@site/src/components/EcosystemStructuredData';
+
+<EcosystemStructuredData id="capacitor-auth-manager" />
+
+![Capacitor Auth Manager mark](/img/ecosystem/capacitor-auth-manager.svg)
+
+Capacitor Auth Manager is a package I can inspect as code and on npm. Its current public contract offers one Google sign-in call for web, Android and iOS.
+
+**The question:** How much sign-in code should three app targets share?
+
+## What does the package put behind one call?
+
+The package spans a browser and two native app targets. That gives a product team one public entry point for Google sign-in while the platform behaviour remains inside the package.
+
+## What dependency does it avoid?
+
+Firebase is not required as a dependency. That is a concrete integration boundary, not a promise about every application that might use the package.
+
+## Which provider is actually present?
+
+Google is the only enabled provider in version 3.x. I would rather name the available path than imply a menu of providers that the release does not contain.
+
+## Open the release
+
+[Visit Capacitor Auth Manager](https://www.npmjs.com/package/capacitor-auth-manager)
+
+[Read Capacitor Auth Manager documentation](https://capacitor-auth-manager-docs.aoneahsan.com)
+
+[See all released Zaions products](/ecosystem/)

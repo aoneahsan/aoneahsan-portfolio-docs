@@ -1,0 +1,39 @@
+{
+  "lastUpdated": "2026-11-27",
+  "person": {
+    "name": "Ahsan Mahmood",
+    "alternateName": [
+      "Ahsan",
+      "aoneahsan",
+      "a1ahsan",
+      "A1 Ahsan",
+      "AOne Ahsan"
+    ],
+    "url": "https://aoneahsan.com",
+    "projectsUrl": "https://aoneahsan.com/projects",
+    "sameAs": [
+      "https://aoneahsan.com",
+      "https://zaions.com",
+      "https://github.com/aoneahsan",
+      "https://www.linkedin.com/in/aoneahsan",
+      "https://www.npmjs.com/~aoneahsan",
+      "https://www.upwork.com/freelancers/aoneahsan",
+      "https://orcid.org/0009-0006-2311-8687"
+    ],
+    "jobTitle": "Founder and developer, Zaions"
+  },
+  "organization": {
+    "name": "Zaions",
+    "alternateName": [
+      "Zaions products",
+      "Zaions projects"
+    ],
+    "url": "https://zaions.com",
+    "logo": "https://zaions.com/assets/logos/zaions-mark.png",
+    "founder": "Ahsan Mahmood",
+    "sameAs": [
+      "https://zaions.com",
+      "https://github.com/aoneahsan"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+---
+title: "Native Update — a released Zaions product"
+description: "A Capacitor web-bundle correction can ship while the next store build is prepared."
+slug: /ecosystem/native-update
+---
+
+import EcosystemStructuredData from '@site/src/components/EcosystemStructuredData';
+
+<EcosystemStructuredData id="native-update" />
+
+![Native Update mark](/img/ecosystem/native-update.svg)
+
+Native Update gives a Capacitor app a route for updating its web bundle over the air. It also covers store-update and review prompts; native code still requires a store build.
+
+**The question:** Which app changes can ship while store review waits?
+
+## What changes without a store release?
+
+JavaScript, HTML, CSS and assets in a supported bundle can be delivered to an installed app. A native plugin or manifest change remains a new binary. That line decides which release path a developer can safely use.
+
+## How does a team manage a release?
+
+The hosted dashboard and management API accompany the open-source self-hostable backend.
+
+## What matters after delivery?
+
+An update path has to verify what it downloads and recover if a bundle fails. Fast delivery is useful only when the app can still start after the change.
+
+## Open the release
+
+[Visit Native Update](https://nativeupdate.aoneahsan.com)
+
+[Read Native Update documentation](https://nativeupdate-docs.aoneahsan.com)
+
+[See all released Zaions products](/ecosystem/)

@@ -9,6 +9,8 @@ slug: /sitemap
 - [Ahsan Mahmood](/)
 - [Compare the ways to build](/compare)
 - [Every place my work is published: the website, the Android app and this guide](/apps/)
+- [Released Zaions products](/ecosystem/)
+- [About the developer](/about-developer/)
 
 ## The five routes
 
