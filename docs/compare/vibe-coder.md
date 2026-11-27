@@ -23,9 +23,11 @@ What you do not get is anyone who can tell you whether it is finished. The tool 
 
 ## What it costs
 
-The AI tools publish their own plan prices, and those prices change often. This page does not repeat them, because a figure copied here would be out of date long before the next check.
+Bolt lists a Pro plan at $25 a month with monthly billing. Lovable's docs list Pro from $25 a month for 100 credits. Replit lists its plans separately; check each provider's current allowance as well as its price.
 
-The larger cost is time: someone still has to find out whether what came out works, and no plan price includes that part.
+Those are tool subscriptions. Someone still has to check the work, maintain it and pay for what the finished app uses.
+
+Sources checked 27 November 2026: <a href="https://bolt.new/pricing" target="_blank" rel="nofollow noopener noreferrer">Bolt, pricing (monthly billing, checked 27 November 2026)</a>, <a href="https://docs.lovable.dev/introduction/subscription-plans" target="_blank" rel="nofollow noopener noreferrer">Lovable, subscription plans (checked 27 November 2026)</a>, <a href="https://replit.com/pricing" target="_blank" rel="nofollow noopener noreferrer">Replit, pricing (checked 27 November 2026)</a>.
 
 ## Where I am different
 

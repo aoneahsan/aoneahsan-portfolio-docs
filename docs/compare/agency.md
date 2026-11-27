@@ -23,9 +23,11 @@ A good agency has a process and a bench. If a developer leaves or falls ill, som
 
 ## What it costs
 
-Agencies quote per project and rarely publish their rates. I could not find a public survey of agency rates that I could open and cite on 27 November 2026, so this page gives no number rather than a guess.
+Clutch's 2026 guide says software development projects reviewed on its directory typically cost $10,000–$49,999. That describes projects reported to Clutch, not a quote from every agency.
 
-Ask two or three agencies for a written quote against the same brief you would send me, and compare what each quote leaves out.
+Ask two or three agencies for a written quote against the same brief you would send me. Compare the scope and support in each quote as carefully as the total.
+
+Sources checked 27 November 2026: <a href="https://clutch.co/developers/pricing" target="_blank" rel="nofollow noopener noreferrer">Clutch, Software Development Company Pricing Guide 2026 (checked 27 November 2026)</a>.
 
 ## Where I am different
 

@@ -23,13 +23,15 @@ The person you get might be excellent. A rating tells you that earlier buyers we
 
 ## What it costs
 
-Each marketplace publishes its own client fee on its own site, charged on top of the freelancer's rate, and the freelancer sets the rate.
+Freelancer.com lists an employer fee of 3% or $3, whichever is greater, when a fixed-price project is awarded. Its hourly-project fee is 3% of each payment. The freelancer sets the project rate separately.
 
-This page does not copy those figures. Read the fee page of the marketplace you use before you accept a bid, so the total is the one you agreed to.
+That is one marketplace's published fee, not a universal rate. Read the fee page for the service you use before accepting a bid.
+
+Sources checked 27 November 2026: <a href="https://www.freelancer.com/feesandcharges" target="_blank" rel="nofollow noopener noreferrer">Freelancer.com, fees and charges for employers (checked 27 November 2026)</a>.
 
 ## Where I am different
 
-You do not have to trust a rating. Everything I have built that can be shown is on this site with a link that opens it: 23 products are live today, and you can use them before you write to me.
+You do not have to trust a rating. Everything I have built that can be shown is on this site with a link that opens it: you can use the live products before you write to me.
 
 Scoping happens on a call, before any number. A fixed number attached to an unscoped brief is a number one of us is going to be unhappy about, and the call is where I say whether I am the right person.
 
