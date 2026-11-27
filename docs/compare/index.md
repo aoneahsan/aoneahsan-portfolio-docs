@@ -1,6 +1,6 @@
 ---
 title: "Five other ways to get this built, and how I compare"
-description: "I am Ahsan Mahmood, an AI-native full-stack developer in Lahore with 8+ years of hands-on experience. AI agents write most of my code now; I decide what they build, review it and confirm it works. That is one way to get software made. These are the other five, including the jobs where I would send you to them."
+description: "Five other ways to get software built, and when each one is the better choice. What I do differently, with dated examples from products that are live today."
 slug: /compare
 ---
 

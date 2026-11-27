@@ -89,6 +89,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   }
   const redirectSources = new Set(SEO_REDIRECTS.flatMap((r) => r.from));
   const sitemap = [...readFileSync(path.join(buildDir, 'sitemap.xml'), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1] ?? '');
+  const metadataOwners = new Map<string, string>();
   if (sitemap.length < 5) problems.push(`sitemap.xml lists ${sitemap.length} URLs; the contract would pass vacuously`);
   for (const loc of sitemap) {
     if (!loc.startsWith(`${SITE_URL}/`)) problems.push(`sitemap: ${loc} is on another host`);
@@ -96,6 +97,19 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     const route = loc.slice(SITE_URL.length);
     if (!existsSync(served(route))) problems.push(`sitemap: ${loc} has no page in the output`);
     if (redirectSources.has(route) || route.startsWith('/search') || route.startsWith('/tags')) problems.push(`sitemap: ${loc} is not an indexable page`);
+    if (!existsSync(served(route))) continue;
+    const html = readFileSync(served(route), 'utf8');
+    const title = /<title[^>]*>([\s\S]*?)<\/title>/.exec(html)?.[1]?.trim() ?? '';
+    const description = /<meta[^>]*\bname=(?:"description"|'description'|description)[^>]*\bcontent="([^"]*)"/.exec(html)?.[1]?.trim() ?? '';
+    for (const [kind, value] of [['title', title], ['description', description]] as const) {
+      if (!value) {
+        problems.push(`${loc}: empty ${kind}`);
+        continue;
+      }
+      const owner = metadataOwners.get(`${kind}:${value}`);
+      if (owner) problems.push(`${loc}: ${kind} duplicates ${owner}`);
+      else metadataOwners.set(`${kind}:${value}`, loc);
+    }
   }
   for (const {to, from} of SEO_REDIRECTS) {
     if (!existsSync(served(to)) || isRedirectPage(readFileSync(served(to), 'utf8'))) problems.push(`redirect target ${to} has no page`);
