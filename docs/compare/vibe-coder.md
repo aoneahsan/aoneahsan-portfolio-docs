@@ -2,7 +2,6 @@
 title: "A vibe coder or me — Ahsan Mahmood"
 description: "When generating an app with AI and no engineering background is the right call, and what changes when someone reads, runs and checks what the agents wrote."
 slug: /compare/vibe-coder
-tags: [comparison, services]
 ---
 
 
@@ -22,6 +21,14 @@ Someone with no engineering background, or you yourself, describing an app to an
 
 What you do not get is anyone who can tell you whether it is finished. The tool will say that it is.
 
+## What it costs
+
+Bolt lists a Pro plan at $25 a month with monthly billing. Lovable's docs list Pro from $25 a month for 100 credits. Replit lists its plans separately; check each provider's current allowance as well as its price.
+
+Those are tool subscriptions. Someone still has to check the work, maintain it and pay for what the finished app uses.
+
+Sources checked 27 November 2026: <a href="https://bolt.new/pricing" target="_blank" rel="nofollow noopener noreferrer">Bolt, pricing (monthly billing, checked 27 November 2026)</a>, <a href="https://docs.lovable.dev/introduction/subscription-plans" target="_blank" rel="nofollow noopener noreferrer">Lovable, subscription plans (checked 27 November 2026)</a>, <a href="https://replit.com/pricing" target="_blank" rel="nofollow noopener noreferrer">Replit, pricing (checked 27 November 2026)</a>.
+
 ## Where I am different
 
 The difference is what happens after the agent says it is done. I read the code, run the real flow as a real user, check the security rules and look at what the database allows. A demo and a product look the same until someone signs in with the wrong account, a quota runs out or the store reviewer writes back.
@@ -29,6 +36,19 @@ The difference is what happens after the agent says it is done. I read the code,
 A green build is not evidence that a feature works. The first two days of rebuilding this site, below, are the example I would point at: eight defects that the automated checks had passed.
 
 That review is the slow part, and it stays with me. Agents made the writing fast; they did not make the checking fast.
+
+## Who should pick which
+
+Each route in one line, me included. The page for each route says more.
+
+| Route | Pick it when |
+|---|---|
+| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
+| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
+| **A vibe coder** | Choose it when you want to test an idea on real people this week. |
+| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
+| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
+| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
 
 ## What you can check
 

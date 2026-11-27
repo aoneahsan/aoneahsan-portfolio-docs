@@ -18,13 +18,14 @@ function assertNoLocalPaths(outDir: string, siteDir: string): void {
 }
 
 const siteUrl = 'https://docs.aoneahsan.com';
+// Slashed permalinks: the site builds with `trailingSlash: true`, and a slashless link is a 301 hop (SA-P26).
 const pages = [
-  ['compare/index.md', '/compare'],
-  ['compare/agency.md', '/compare/agency'],
-  ['compare/inexperienced-developer.md', '/compare/inexperienced-developer'],
-  ['compare/vibe-coder.md', '/compare/vibe-coder'],
-  ['compare/freelancer-marketplace.md', '/compare/freelancer-marketplace'],
-  ['compare/in-house.md', '/compare/in-house'],
+  ['compare/index.md', '/compare/'],
+  ['compare/agency.md', '/compare/agency/'],
+  ['compare/inexperienced-developer.md', '/compare/inexperienced-developer/'],
+  ['compare/vibe-coder.md', '/compare/vibe-coder/'],
+  ['compare/freelancer-marketplace.md', '/compare/freelancer-marketplace/'],
+  ['compare/in-house.md', '/compare/in-house/'],
 ] as const;
 
 function escapeXml(value: string): string {
@@ -48,7 +49,7 @@ export default function feedPlugin({siteDir}: LoadContext): Plugin {
         const url = `${siteUrl}${permalink}`;
         return `<item><title>${escapeXml(title)}</title><link>${url}</link><guid isPermaLink="true">${url}</guid><description>${escapeXml(description)}</description><pubDate>${date.toUTCString()}</pubDate><category>Comparison</category></item>`;
       }));
-      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahsan Mahmood — comparison guide</title><link>${siteUrl}/compare</link><description>Five routes to building software, checked against Ahsan Mahmood's work.</description><atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml"/>${items.join('')}</channel></rss>`;
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahsan Mahmood — comparison guide</title><link>${siteUrl}/compare/</link><description>Five routes to building software, checked against Ahsan Mahmood's work.</description><atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml"/>${items.join('')}</channel></rss>`;
       await writeFile(path.join(outDir, 'feed.xml'), xml);
     },
   };

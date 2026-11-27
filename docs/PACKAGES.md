@@ -1,6 +1,6 @@
 # Packages — aoneahsan.com docs
 
-Last Updated: 2026-11-16
+Last Updated: 2026-11-27
 
 Node 26.13.1 LTS (`.nvmrc`, `engines.node >=26.13.1`), Yarn 4.18.1 (`packageManager`), `node-modules` linker,
 `npmMinimalAgeGate: 0`. Upgraded with `npx -y npm-check-updates -u`, latest stable. This file is excluded from the
@@ -9,6 +9,7 @@ published site (`docusaurus.config.ts` → docs `exclude`).
 | Package | Range | Kind | Purpose |
 |---|---|---|---|
 | `@docusaurus/core`, `faster`, `plugin-content-docs`, `preset-classic`, `theme-common`, `theme-mermaid` | 3.10.2 | runtime | The site generator, Rspack build, docs, theme and Mermaid diagrams |
+| `@docusaurus/plugin-client-redirects` | 3.10.2 | runtime | 301-equivalent pages for the retired `/tags/*` addresses (`plugins/seo-redirects.mts`, aoneahsan-portfolio-docs#1) |
 | `@easyops-cn/docusaurus-search-local` | 0.55.3 | runtime | Offline search, no third-party service |
 | `@mdx-js/react` | ^3.1.1 | runtime | MDX rendering |
 | `prism-react-renderer` | ^2.4.1 | runtime | Code highlighting |
@@ -27,5 +28,6 @@ published site (`docusaurus.config.ts` → docs `exclude`).
 
 ## History
 
+- 2026-11-27 — `@docusaurus/plugin-client-redirects` 3.10.2 added (same release as core) for the retired tag pages; `build` now ends with `yarn seo:contract`.
 - 2026-11-16 — Node 26.13.1 LTS pass: `.nvmrc` created at 26.13.1, `engines.node` `>=22` → `>=26.13.1`,
   `@types/node` ^24.10.0 → ^26.6.6. Every other package was already on its latest stable.

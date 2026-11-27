@@ -2,7 +2,6 @@
 title: "Hiring an agency or hiring me — Ahsan Mahmood"
 description: "When an agency is the better choice than one developer, what a team under one contract gets you, and what I do differently with AI agents."
 slug: /compare/agency
-tags: [comparison, services]
 ---
 
 
@@ -22,6 +21,14 @@ A team under one contract: usually an account manager, a designer, a few develop
 
 A good agency has a process and a bench. If a developer leaves or falls ill, somebody else picks the work up and you may never hear about it.
 
+## What it costs
+
+Clutch's 2026 guide says software development projects reviewed on its directory typically cost $10,000–$49,999. That describes projects reported to Clutch, not a quote from every agency.
+
+Ask two or three agencies for a written quote against the same brief you would send me. Compare the scope and support in each quote as carefully as the total.
+
+Sources checked 27 November 2026: <a href="https://clutch.co/developers/pricing" target="_blank" rel="nofollow noopener noreferrer">Clutch, Software Development Company Pricing Guide 2026 (checked 27 November 2026)</a>.
+
 ## Where I am different
 
 You talk to the person doing the work. The person who models the data also writes the security rules, packages the Android build and answers the store reviewer, so nothing gets lost between a brief and a developer.
@@ -29,6 +36,19 @@ You talk to the person doing the work. The person who models the data also write
 The team I direct is AI agents rather than staff. They write the code far faster than I can, and I decide what they build, review what comes back and run it before you hear about it. There is no handover between people for a detail to fall through.
 
 The handover assumes I am not available: full IP transfer, and documentation that matches the code.
+
+## Who should pick which
+
+Each route in one line, me included. The page for each route says more.
+
+| Route | Pick it when |
+|---|---|
+| **An agency** | Choose it when the work needs several people at the same hour. |
+| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
+| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
+| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
+| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
+| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
 
 ## What you can check
 

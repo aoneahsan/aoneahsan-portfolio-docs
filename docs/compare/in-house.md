@@ -2,7 +2,6 @@
 title: "Building in-house or hiring me — Ahsan Mahmood"
 description: "When an in-house team is the right answer, where one outside developer fits before it exists, and what my handover assumes about the day I leave."
 slug: /compare/in-house
-tags: [comparison, services]
 ---
 
 
@@ -22,6 +21,14 @@ Your own employee or team: someone who knows the business, sits in your meetings
 
 It is usually the slowest route to start, because you have to find them, hire them and keep them busy once the first release is out.
 
+## What it costs
+
+In May 2025 the median wage of a US software developer was $135,980 a year. The lowest-paid tenth earned less than $82,460 and the highest-paid tenth more than $214,670.
+
+That is the wage alone. Recruiting, benefits and equipment come on top of it.
+
+Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 27 November 2026)</a>
+
 ## Where I am different
 
 I fit the stretch before that: the first release, the codebase that needs rescuing, the product your team has no time to start. Taking over someone else's code usually begins with an audit and a prioritised roadmap.
@@ -29,6 +36,19 @@ I fit the stretch before that: the first release, the codebase that needs rescui
 You get a product without a hiring round, and the handover assumes I am not available. You are not buying a codebase only I can read. If the project only runs while I am on it, I have not finished.
 
 And if the right answer turns out to be hiring a senior who works this way, I am open to remote roles too.
+
+## Who should pick which
+
+Each route in one line, me included. The page for each route says more.
+
+| Route | Pick it when |
+|---|---|
+| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
+| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
+| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
+| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
+| **Doing it in-house** | Choose it when the software is the business and needs someone every day for years. |
+| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
 
 ## What you can check
 

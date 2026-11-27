@@ -2,7 +2,6 @@
 title: "A marketplace freelancer or me — Ahsan Mahmood"
 description: "When a large freelancer marketplace is the better route, what its escrow really protects, and how you can check my work before writing to me."
 slug: /compare/freelancer-marketplace
-tags: [comparison, services]
 ---
 
 
@@ -22,13 +21,34 @@ A search box, a long list of profiles, and bids that arrive quickly. You choose 
 
 The person you get might be excellent. A rating tells you that earlier buyers were happy with earlier jobs, and those jobs may look nothing like yours.
 
+## What it costs
+
+Freelancer.com lists an employer fee of 3% or $3, whichever is greater, when a fixed-price project is awarded. Its hourly-project fee is 3% of each payment. The freelancer sets the project rate separately.
+
+That is one marketplace's published fee, not a universal rate. Read the fee page for the service you use before accepting a bid.
+
+Sources checked 27 November 2026: <a href="https://www.freelancer.com/feesandcharges" target="_blank" rel="nofollow noopener noreferrer">Freelancer.com, fees and charges for employers (checked 27 November 2026)</a>.
+
 ## Where I am different
 
-You do not have to trust a rating. Everything I have built that can be shown is on this site with a link that opens it: 23 products are live today, and you can use them before you write to me.
+You do not have to trust a rating. Everything I have built that can be shown is on this site with a link that opens it: you can use the live products before you write to me.
 
 Scoping happens on a call, before any number. A fixed number attached to an unscoped brief is a number one of us is going to be unhappy about, and the call is where I say whether I am the right person.
 
 The cost of that is time up front. A call and a written scope are slower than accepting a bid, and for a small job they are not worth it.
+
+## Who should pick which
+
+Each route in one line, me included. The page for each route says more.
+
+| Route | Pick it when |
+|---|---|
+| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
+| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
+| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
+| **A freelancer from a large marketplace** | Choose it for a small job with a clear finish. |
+| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
+| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
 
 ## What you can check
 
