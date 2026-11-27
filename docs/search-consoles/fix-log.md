@@ -1,7 +1,18 @@
 # Search-console fix log: docs.aoneahsan.com
 
-Newest first. One section per filed issue. `live-verified` is ours; `indexed` belongs to Google. Not published:
+Newest first. One section per filed issue or verified defect. `live-verified` is ours; `indexed` belongs to Google. Not published:
 `docusaurus.config.ts` excludes `search-consoles/**`. Procedure: skill `aoneahsan-cccs-search-issue-remediation`.
+
+## Duplicate home and comparison descriptions · 2026-11-27 · `main@9068620`, `gh-pages@0f632dd`
+
+The ten indexable docs sitemap pages had one duplicated meta description: `/` and `/compare/` used the same
+introductory text. The `/compare/` description now uses the approved `compare.html` dummy's own wording,
+while the home description stays as it was. `plugins/seo-contract.mts` checks title and description
+uniqueness across sitemap URLs; `yarn seo:contract` failed on the duplicate before the edit and passed
+afterwards. `yarn typecheck` and `yarn build` passed. The deployed `/compare/` HTML hash
+`60e508ea902f35c16d4e1074336b72e789e8e2c90f59618512cdda936b52f46e` matched the local build;
+Chrome rendered it at 1440 and 390 with no uncaught errors or horizontal overflow. IndexNow accepted the
+changed URL (HTTP 200). Console index state remains unobserved.
 
 ## aoneahsan-portfolio-docs#1: [SEO][URGENT][PENDING] URL-level indexing + AEO fix list (audit 2026-11-27) · 2026-11-27 · commit `02864e7`
 
