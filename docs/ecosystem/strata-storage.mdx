@@ -26,6 +26,17 @@ A caller can use the same package across the app’s surfaces while choosing the
 
 The package docs distinguish persistence and security across storage layers.
 
+## What must stay visible behind one API?
+
+The storage layers do not all have the same properties. A browser can use localStorage, IndexedDB or cookies; a native app can reach Keychain or Keystore through this package. One interface is useful when the caller chooses the layer deliberately and can still understand where the data goes. The public package declares zero dependencies and support for web, iOS and Android. I would inspect the API documentation for persistence and security differences before storing anything consequential. A common call shape should reduce repeated platform wiring. It should not erase the different trust boundaries of those stores.
+
+## From the release record
+
+- One storage API over localStorage, IndexedDB, cookies and native.
+- Zero dependencies, web plus iOS and Android
+- One interface over every storage layer
+- Keychain and Keystore on native
+
 ## Open the release
 
 [Visit Strata Storage](https://www.npmjs.com/package/strata-storage)

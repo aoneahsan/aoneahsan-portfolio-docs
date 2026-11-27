@@ -23,6 +23,10 @@
         {
           "heading": "Where is the boundary?",
           "body": "The published facts describe discovery and anonymous rooms. They do not promise that every conversation is anonymous or that no information is ever stored. A useful portfolio page should keep that distinction visible."
+        },
+        {
+          "heading": "Why keep these ways of meeting separate?",
+          "body": "A username, an invite link and a QR code all solve the first contact, but they ask different things of the people using them. The published release gives those choices alongside an anonymous room that does not need an account. I would inspect each entry point on the live web app, then check the Android surface recorded for the same product. The useful engineering question is whether a person can tell which kind of conversation they are entering before they share an address or start a room. The roster gives the routes into a chat. It does not settle every privacy question about the chat afterward."
         }
       ],
       "logo": "/img/ecosystem/achat.svg"
@@ -48,6 +52,10 @@
         {
           "heading": "What stays under the user’s control?",
           "body": "The roster says recordings stay on the phone unless private cloud backup is enabled. I would check that choice in the app before describing its data flow more broadly."
+        },
+        {
+          "heading": "What deserves a separate decision?",
+          "body": "Backup does. The phone library already has playback, search, notes and export, so the recording can be useful without first moving it to a cloud account. Private cloud backup is a choice the person enables. That order is significant for an app handling call audio: a list of features is less useful than knowing where the file stays until somebody asks otherwise. I would inspect the backup control and an exported recording on the released Android app, then check the actual audio source on the device being used. The published product cannot make every handset supply the same source."
         }
       ],
       "logo": "/img/ecosystem/callvault.svg"
@@ -73,6 +81,10 @@
         {
           "heading": "Which provider is actually present?",
           "body": "Google is the only enabled provider in version 3.x. I would rather name the available path than imply a menu of providers that the release does not contain."
+        },
+        {
+          "heading": "How would I judge this package?",
+          "body": "I would start with the public Google sign-in call and follow it on web, Android and iOS, rather than infer platform support from one successful browser demo. The release says Firebase is not required as a dependency and that Google is the only enabled provider in version 3.x. Those are useful, testable limits. A team adopting the package still has to configure its own application and inspect the returned session on each target. The package is responsible for a consistent entry point; the consuming product remains responsible for its sign-in experience, account rules and what happens after authentication succeeds."
         }
       ],
       "logo": "/img/ecosystem/capacitor-auth-manager.svg"
@@ -98,6 +110,10 @@
         {
           "heading": "What can be opened now?",
           "body": "The released product is linked directly. A hiring manager can inspect its actual resume and profile flow before deciding what the claims mean in practice."
+        },
+        {
+          "heading": "What could a candidate inspect?",
+          "body": "A candidate can begin with a structured profile, turn that record into an ATS-friendly resume and use tools such as bullet writing and ATS checks. The published count is more than fifty career tools, but that number says little about whether a particular resume states the right work. The verified-employment workflow is another inspectable step: it adds a way to check a claim without making the hiring decision for an employer. I would follow one profile through its resume output and then inspect what a verification actually shows. The product can make evidence easier to present. It cannot promise a job offer."
         }
       ],
       "logo": "/img/ecosystem/clearhire.svg"
@@ -123,6 +139,10 @@
         {
           "heading": "Where does the app stop?",
           "body": "Food search flags when a question belongs with a doctor; it does not give medical advice."
+        },
+        {
+          "heading": "What makes a food result usable?",
+          "body": "The serving size makes it comparable. A nutrient amount without a serving leaves the reader guessing what the number refers to; this app ties the contribution to one serving and can point to a cheap pick. The search itself starts from a nutrient, a feeling or the time of day, which are three ordinary ways a person might arrive without a food name. I would inspect a result reached from each route and read the quantity it shows. When the question belongs with a doctor, the product says so. That boundary matters more than adding a confident sentence the food data cannot support."
         }
       ],
       "logo": "/img/ecosystem/eatthis.svg"
@@ -148,6 +168,10 @@
         {
           "heading": "Which decision stays with the merchant?",
           "body": "Modules can be switched on selectively. That is a more useful description than assuming every WooCommerce store wants the same set of additions."
+        },
+        {
+          "heading": "Where does the choice of scope live?",
+          "body": "With the merchant. Empora packages WooCommerce modules together, but it lets a store switch on the modules it needs rather than treating the whole catalogue as one mandatory installation. The web dashboard has a separate job: it manages licences and optional store connections. I would inspect those two surfaces together, because an enabled module and a configured connection are different facts. The public roster does not list every module or promise that a particular store setup is supported. A merchant should open the current product list and check the exact module before planning a rollout around it."
         }
       ],
       "logo": "/img/ecosystem/empora.svg"
@@ -173,6 +197,10 @@
         {
           "heading": "Where does it run?",
           "body": "The current web and Android apps can be inspected directly."
+        },
+        {
+          "heading": "What does the rope reveal?",
+          "body": "A thickening rope records that check-ins happened; a frayed place records a pause. Both are part of the same history. The social pieces in the release — friends, challenges and a leaderboard — surround that personal record, and the leaderboard can be left. I would inspect a run of check-ins with a gap, then check whether the visual still tells the truth without a contest attached. The web and Android surfaces are both recorded for one account. The portfolio can describe the visible metaphor and the released platforms. It should not turn a habit tool into a promise that somebody will keep a streak."
         }
       ],
       "logo": "/img/ecosystem/habitforge.svg"
@@ -198,6 +226,10 @@
         {
           "heading": "What does this page claim?",
           "body": "It describes the product workflow, not clinical accuracy or a regulatory certification. Those would need their own evidence and are not supplied by a portfolio link."
+        },
+        {
+          "heading": "Where is the consequential handoff?",
+          "body": "Between a draft result and a released one. LabFlow keeps patient records, orders, samples and results in one system, but keeping them together is only the starting point. The validation workflow is the point at which a result changes status and becomes ready for its next reader. Billing, inventory and quality control are part of the same published product, so I would also inspect how those records sit beside an order. The release record establishes that the steps exist. It does not establish clinical accuracy, laboratory accreditation or the rules a particular jurisdiction requires; those claims need evidence beyond a portfolio page."
         }
       ],
       "logo": "/img/ecosystem/labflow.svg"
@@ -223,6 +255,10 @@
         {
           "heading": "Where is the boundary?",
           "body": "This is a record-keeping app. The roster does not claim diagnosis or treatment, and neither should a page about the engineering work behind it."
+        },
+        {
+          "heading": "What belongs in one personal record?",
+          "body": "The published app brings vitals, water, medicines, sleep and nutrition together with periods, fertility and baby milestones. Those are different kinds of entries, so I would inspect how a person finds one later and whether the web and Android views agree after sync. The release record says the product works across devices; it does not say that every health question has an answer inside it. That distinction keeps a useful record from being mistaken for clinical guidance. The page can show the scope of the software and point to the working app. Decisions about diagnosis or treatment belong with a qualified professional."
         }
       ],
       "logo": "/img/ecosystem/lifewell.svg"
@@ -248,6 +284,10 @@
         {
           "heading": "Which promise is deliberately narrow?",
           "body": "The dry run is a preview, not permission to delete personal files. A cleanup product is credible when the exact path and consequence are visible before a click."
+        },
+        {
+          "heading": "What should a dry run earn?",
+          "body": "A readable account of the paths that a real run would touch. The desktop app names cache paths and limits, while its command line provides scan and dry-run commands that do not delete. After a real run, a receipt records what happened. I would inspect a dry run before choosing any removal, then compare its promised paths with the receipt rather than relying on a broad word such as cleanup. The x86_64 AppImage, .deb and npx command line are all recorded release routes. None of those formats changes the central rule: a preview must be useful before an irreversible action."
         }
       ],
       "logo": "/img/ecosystem/linux-cleanup.svg"
@@ -273,6 +313,10 @@
         {
           "heading": "Where can it be inspected?",
           "body": "The public repository shows the current macOS tool."
+        },
+        {
+          "heading": "How would I test its narrow promise?",
+          "body": "I would inspect the current section catalogue, run a dry run and look at the paths it proposes. Personal folders are outside the permitted targets unconditionally, so that exclusion is a behaviour to prove, not a reassuring label to add after the fact. The product is for macOS, and the public repository is a place to read how its current release handles those decisions. A preview also gives a person time to stop before any removal. The portfolio should not imply that every file called a cache is disposable. The useful promise is the specific boundary the tool enforces. The real test is whether a proposed path outside that boundary is refused, even when a section name makes it look routine."
         }
       ],
       "logo": "/img/ecosystem/macleanup.svg"
@@ -298,6 +342,10 @@
         {
           "heading": "What matters after delivery?",
           "body": "An update path has to verify what it downloads and recover if a bundle fails. Fast delivery is useful only when the app can still start after the change."
+        },
+        {
+          "heading": "Which release path does a change need?",
+          "body": "A supported web-bundle change can move through an over-the-air update; a native plugin or manifest change still needs a store build. That distinction is the first thing I would ask a team to identify before it publishes a correction. Native Update also includes store-update and review prompts, and the release record names both a hosted dashboard and an open-source self-hostable backend. I would inspect how an installed app receives and verifies a bundle and what it does if that bundle fails to start. A fast upload is not a complete update flow. The installed app needs a path back to a working release."
         }
       ],
       "logo": "/img/ecosystem/native-update.svg"
@@ -323,6 +371,10 @@
         {
           "heading": "What should a visitor check?",
           "body": "A rule should make its target and effect clear before it changes connectivity."
+        },
+        {
+          "heading": "Why does the target need to be explicit?",
+          "body": "A network rule can block Wi-Fi, mobile data or both for one selected Android app while other apps remain online. If the target is unclear, a person can mistake a per-app rule for a device-wide switch. Profiles add another layer: groups of apps can receive rules on chosen days and times. I would inspect both the immediate rule and its scheduled version, including how the app shows which connection type is affected. The roster establishes the available controls. The live Android product is where a visitor can check the confirmation and status the software actually gives before depending on a rule."
         }
       ],
       "logo": "/img/ecosystem/netcage.svg"
@@ -348,6 +400,10 @@
         {
           "heading": "Where does the product stop?",
           "body": "The app organises information. It does not replace a clinical assessment; that boundary should be visible anywhere its features are described."
+        },
+        {
+          "heading": "What travels out of the app?",
+          "body": "A PDF made for a clinician. The product also records information week by week — nutrition and exercise alongside vitals, symptoms, mood and appointments — so the export has a sequence to carry rather than one isolated number. I would inspect what a person can select for that document and how the dates read once it is outside the app. The person decides when to make and share the file. Nothing in the release record turns the software into a clinical assessment or advice about a pregnancy. That is why the export is described as a record to bring to a doctor, not an answer from one."
         }
       ],
       "logo": "/img/ecosystem/pregnancypal.svg"
@@ -373,6 +429,10 @@
         {
           "heading": "What can be checked?",
           "body": "The released game is linked directly. A visitor can inspect the actual flow rather than infer rules from a screenshot of a board."
+        },
+        {
+          "heading": "What makes a pause honest?",
+          "body": "The bank and deeds remain in place when the game resumes. That matters for all three recorded ways to play: passing one phone around, sitting opposite CPU characters or opening an online room. Without the state of the bank and ownership, a paused match would become a fresh setup wearing the old name. I would inspect the transition out of a game and back into it, then check whether each mode presents the same essential state. The release record describes the available modes and continuity. It does not claim a particular rules variant or an outcome for every match."
         }
       ],
       "logo": "/img/ecosystem/rentparty.svg"
@@ -398,6 +458,10 @@
         {
           "heading": "Where can the route be inspected?",
           "body": "The live product is linked here. I would verify a send against its actual Android receipt, not treat a queued status as proof that a phone sent the message."
+        },
+        {
+          "heading": "Where does a send become evidence?",
+          "body": "At the registered Android device, not at the moment a web page says a job was queued. The published product has single, batch and scheduled messages, plus device registration and volunteer-pool management. Those are meaningful workflows, but they do not by themselves establish delivery to a recipient. I would inspect the device status, a scheduled item and the resulting send record before describing a message as sent. The architecture makes the phone an active endpoint. That gives a user control over the sending device and gives the product a responsibility to distinguish a planned send from an actual one."
         }
       ],
       "logo": "/img/ecosystem/smsapp.svg"
@@ -423,6 +487,10 @@
         {
           "heading": "What is the published limit?",
           "body": "The package docs distinguish persistence and security across storage layers."
+        },
+        {
+          "heading": "What must stay visible behind one API?",
+          "body": "The storage layers do not all have the same properties. A browser can use localStorage, IndexedDB or cookies; a native app can reach Keychain or Keystore through this package. One interface is useful when the caller chooses the layer deliberately and can still understand where the data goes. The public package declares zero dependencies and support for web, iOS and Android. I would inspect the API documentation for persistence and security differences before storing anything consequential. A common call shape should reduce repeated platform wiring. It should not erase the different trust boundaries of those stores."
         }
       ],
       "logo": "/img/ecosystem/strata-storage.svg"
@@ -448,6 +516,10 @@
         {
           "heading": "What can a visitor open?",
           "body": "The live site shows current lessons and booking."
+        },
+        {
+          "heading": "What can a learner choose next?",
+          "body": "A recorded Tajweed or Tafseer lesson can be taken at the learner's pace, with progress kept across the lessons. A live one-on-one recitation session is a separate choice, booked in the learner's timezone. I would inspect those paths independently: one starts with opening a lesson, the other with choosing a time. The roster does not state a curriculum length or guarantee a learning outcome, so this page should not add either. The live product shows its current lessons and booking flow. A useful account of it leaves room for a learner to decide whether recorded study or a session fits the next step. The difference between opening a recording and reserving a person’s time should remain obvious at the first decision."
         }
       ],
       "logo": "/img/ecosystem/tilawah.svg"
@@ -473,6 +545,10 @@
         {
           "heading": "Where do the utilities fit?",
           "body": "More than 50 built-in utilities are listed, but the core link workflow remains the reason to open Trizlink. A utility count does not describe how a link resolves."
+        },
+        {
+          "heading": "What does the link owner control?",
+          "body": "A creator can choose a custom slug for a branded short link, use a custom domain and publish a link-in-bio page. Click analytics then gives a way to inspect visits, although the roster does not define every metric or attribution rule. I would start by opening a short URL and following its destination, then inspect the page and its reporting in the live product. The release also lists more than fifty utilities, but a utility count does not explain whether a link resolves reliably. The recognizable address and the destination it reaches are the first claims a visitor can test."
         }
       ],
       "logo": "/img/ecosystem/trizlink.svg"
@@ -498,6 +574,10 @@
         {
           "heading": "How is it operated?",
           "body": "More than 40 shortcuts are listed. The released extension site is the place to inspect the current controls and their settings."
+        },
+        {
+          "heading": "What makes a video moment repeatable?",
+          "body": "A viewer can use frame stepping and an A–B loop to return to the same section, then keep a screenshot or a timestamped note from it. The speed range runs from 0.1× to 16×; audio boost and colour filters are other published controls. I would inspect the extension on an HTML5 video and check whether a shortcut reaches the action its label promises. The roster says there are more than forty shortcuts, but the count is less useful than a control that works on the page in front of someone. The current extension site is the direct place to inspect them."
         }
       ],
       "logo": "/img/ecosystem/video-controls-plus.svg"
@@ -523,6 +603,10 @@
         {
           "heading": "Where is the platform boundary?",
           "body": "It is a planning layer over Google Maps, not a replacement for it."
+        },
+        {
+          "heading": "What survives a wrong turn?",
+          "body": "The chosen route remains visible. Waylock lets a driver or courier hold selected stops in place while ordering the rest around them, then presents a choice to return to the old route or take a new one after a detour. I would inspect how those fixed stops are shown before departure and how the alternative appears when the road changes. The product is a planning layer over Google Maps, which is an important limit: it does not replace the underlying map service. Its value is in preserving a driver's decision while still allowing a new decision when the route changes."
         }
       ],
       "logo": "/img/ecosystem/waylock.svg"
@@ -548,6 +632,10 @@
         {
           "heading": "What is the trust boundary?",
           "body": "The documented dry run names paths and makes no network calls."
+        },
+        {
+          "heading": "What does a receipt need to explain?",
+          "body": "Before removal, windowsweep names paths and runs a dry run across its thirty sections. Personal files are chosen row by row. That turns a broad cleanup label into a list a person can read and refuse. I would compare a proposed run with the result and check that the no-network boundary remains true for the local tool. The recorded release routes are an npx command and a Windows desktop app; both should make the proposed work legible before a real change. A convenient launcher is useful, but the path list and the user's choice are the parts that earn trust."
         }
       ],
       "logo": "/img/ecosystem/windowsweep.svg"
@@ -573,6 +661,10 @@
         {
           "heading": "What stays consistent?",
           "body": "Search and dark mode bring the tool catalogue together."
+        },
+        {
+          "heading": "Why put these small tools together?",
+          "body": "A searchable toolbox gives a person one place to find a formatter, converter, encoder or generator instead of following unrelated links for each job. The roster says the work runs in the browser, works offline and has a dark-mode-first interface. I would open one utility, inspect its input and output, and then check the same flow without a connection before repeating the offline claim more broadly. The product link points to the current catalogue, which is more useful than promising a fixed count of utilities. A tool's job is to make one transformation clear and predictable, then get out of the way. The specific tool page should name its input limits and show the result before a person trusts it with another file."
         }
       ],
       "logo": "/img/ecosystem/ztools.svg"

@@ -26,6 +26,16 @@ Playback, search and notes make a recording useful after the call. Export is an 
 
 The roster says recordings stay on the phone unless private cloud backup is enabled. I would check that choice in the app before describing its data flow more broadly.
 
+## What deserves a separate decision?
+
+Backup does. The phone library already has playback, search, notes and export, so the recording can be useful without first moving it to a cloud account. Private cloud backup is a choice the person enables. That order is significant for an app handling call audio: a list of features is less useful than knowing where the file stays until somebody asks otherwise. I would inspect the backup control and an exported recording on the released Android app, then check the actual audio source on the device being used. The published product cannot make every handset supply the same source.
+
+## From the release record
+
+- CallVault records calls on Android through the audio source a phone makes available.
+- Its phone library supports playback, search, notes and export.
+- Recordings stay on the phone unless the user enables private cloud backup.
+
 ## Open the release
 
 [Visit CallVault](https://callvault.aoneahsan.com)

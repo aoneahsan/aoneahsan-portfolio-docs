@@ -26,6 +26,17 @@ The hosted dashboard and management API accompany the open-source self-hostable 
 
 An update path has to verify what it downloads and recover if a bundle fails. Fast delivery is useful only when the app can still start after the change.
 
+## Which release path does a change need?
+
+A supported web-bundle change can move through an over-the-air update; a native plugin or manifest change still needs a store build. That distinction is the first thing I would ask a team to identify before it publishes a correction. Native Update also includes store-update and review prompts, and the release record names both a hosted dashboard and an open-source self-hostable backend. I would inspect how an installed app receives and verifies a bundle and what it does if that bundle fails to start. A fast upload is not a complete update flow. The installed app needs a path back to a working release.
+
+## From the release record
+
+- Ship Capacitor app updates without the store wait.
+- Live over-the-air bundle updates
+- In-app store-update and review prompts
+- Self-hostable backend, open-source
+
 ## Open the release
 
 [Visit Native Update](https://nativeupdate.aoneahsan.com)

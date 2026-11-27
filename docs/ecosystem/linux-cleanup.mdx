@@ -26,6 +26,17 @@ The roster records an x86_64 desktop app distributed as AppImage and .deb, plus 
 
 The dry run is a preview, not permission to delete personal files. A cleanup product is credible when the exact path and consequence are visible before a click.
 
+## What should a dry run earn?
+
+A readable account of the paths that a real run would touch. The desktop app names cache paths and limits, while its command line provides scan and dry-run commands that do not delete. After a real run, a receipt records what happened. I would inspect a dry run before choosing any removal, then compare its promised paths with the receipt rather than relying on a broad word such as cleanup. The x86_64 AppImage, .deb and npx command line are all recorded release routes. None of those formats changes the central rule: a preview must be useful before an irreversible action.
+
+## From the release record
+
+- See what stays before anything goes.
+- Preview the cache paths it can remove, inspect the limits and run a dry run before a real removal.
+- A desktop app for x86_64 Linux (AppImage and .deb) with a dry run before every real run and a receipt after it.
+- The MIT-licensed command line runs with npx; scan and dry run never delete.
+
 ## Open the release
 
 [Visit linux-cleanup](https://linux-cleanup.aoneahsan.com/)

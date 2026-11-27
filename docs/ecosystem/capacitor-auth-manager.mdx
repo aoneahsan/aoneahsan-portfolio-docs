@@ -26,6 +26,16 @@ Firebase is not required as a dependency. That is a concrete integration boundar
 
 Google is the only enabled provider in version 3.x. I would rather name the available path than imply a menu of providers that the release does not contain.
 
+## How would I judge this package?
+
+I would start with the public Google sign-in call and follow it on web, Android and iOS, rather than infer platform support from one successful browser demo. The release says Firebase is not required as a dependency and that Google is the only enabled provider in version 3.x. Those are useful, testable limits. A team adopting the package still has to configure its own application and inspect the returned session on each target. The package is responsible for a consistent entry point; the consuming product remains responsible for its sign-in experience, account rules and what happens after authentication succeeds.
+
+## From the release record
+
+- Capacitor Auth Manager offers one Google sign-in call for web, Android and iOS.
+- It does not require Firebase as a dependency.
+- Google is the only enabled provider in version 3.x.
+
 ## Open the release
 
 [Visit Capacitor Auth Manager](https://www.npmjs.com/package/capacitor-auth-manager)
