@@ -1,82 +1,31 @@
 ---
-title: "Building in-house or hiring me — Ahsan Mahmood"
-description: "When an in-house team is the right answer, where one outside developer fits before it exists, and what my handover assumes about the day I leave."
+title: "Plan an in-house team for a product you will keep"
+description: "Questions about hiring, knowledge transfer and software ownership when a business needs its own engineers for years."
 slug: /compare/in-house
 ---
 
+Build your own team when the software is central to the business and needs attention every day. An employee can stay close to the people using it, learn why decisions were made and keep that knowledge after a first release.
 
-Your own team knows your business and stays. If the software is the business, that is where it belongs in the end. The question is what happens before that team exists.
+## Map the work that continues
 
-Choose it when the software is the business and needs someone every day for years.
+List what happens after launch: user support, feature requests, security fixes, provider changes and releases. If those jobs never stop, a one-off contract does not replace an internal owner. Name the person who will decide priorities and the person who can ship an urgent correction.
 
-## Where this route is right
+Hiring takes time. While the team is forming, decide who maintains the existing service and who reviews the first engineer's work. A vacant senior role cannot be hidden inside a junior hire's job description.
 
-If the software is the business and it will need someone every day for years, build the team. No outside developer should be the long-term answer for your core product.
+## Read the wage figure correctly
 
-In-house is also right when the knowledge cannot leave the building, or when you already have engineers and a settled roadmap.
+The US Bureau of Labor Statistics reports a May 2025 median wage of $135,980 a year for US software developers. Its lowest-paid tenth earned less than $82,460; its highest-paid tenth earned more than $214,670. These are wages, not a whole team's cost. Recruiting, benefits and equipment are additional. The <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">BLS occupation page</a> was checked on 28 November 2026.
 
-## What you get
+Use the figure to frame a US hiring conversation, not to decide a contractor's quote or a salary in another country.
 
-Your own employee or team: someone who knows the business, sits in your meetings and still remembers why a decision was made three years later.
+## Put the first release in your own hands
 
-It is usually the slowest route to start, because you have to find them, hire them and keep them busy once the first release is out.
+An outside developer can help before the permanent team exists. Agree in advance where the repository, domain, database and release accounts will live. Require a build that a new engineer can run, a record of decisions and a release process the team can repeat.
 
-## What it costs
+I can work on that stretch or on an existing codebase that needs an audit. [LabFlow](https://aoneahsan.com/projects/com.aoneahsan.labflow) and [this portfolio rebuild](https://aoneahsan.com/projects/com.aoneahsan.app) are open examples. My [full in-house comparison](https://aoneahsan.com/compare/in-house) explains the handover I expect. I am also open to remote roles when a business wants a senior engineer inside the team.
 
-In May 2025 the median wage of a US software developer was $135,980 a year. The lowest-paid tenth earned less than $82,460 and the highest-paid tenth more than $214,670.
+If you need ongoing daily ownership, hire for it. If you need the first release while that team is being assembled, [tell me what exists now](https://aoneahsan.com/contact).
 
-That is the wage alone. Recruiting, benefits and equipment come on top of it.
-
-Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 28 November 2026)</a>
-
-## Where I am different
-
-I fit the stretch before that: the first release, the codebase that needs rescuing, the product your team has no time to start. Taking over someone else's code usually begins with an audit and a prioritised roadmap.
-
-You get a product without a hiring round, and the handover assumes I am not available. You are not buying a codebase only I can read. If the project only runs while I am on it, I have not finished.
-
-And if the right answer turns out to be hiring a senior who works this way, I am open to remote roles too.
-
-## Who should pick which
-
-Each route in one line, me included. The page for each route says more.
-
-| Route | Pick it when |
-|---|---|
-| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
-| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
-| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
-| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
-| **Doing it in-house** | Choose it when the software is the business and needs someone every day for years. |
-| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
-
-## What you can check
-
-My side of this rests on the products below. Each one opens, and each date comes from its commit history or my own project records.
-
-### [LabFlow](https://aoneahsan.com/projects/com.aoneahsan.labflow)
-
-A multi-tenant laboratory information system across three production surfaces.
-
-- **23 July 2025:** First commit.
-- **7 November 2026:** Latest commit I checked, still in work.
-
-### [Ahsan Mahmood Portfolio](https://aoneahsan.com/projects/com.aoneahsan.app)
-
-This site, rebuilt from nothing.
-
-- **31 July 2026:** Planning and the first design pages.
-- **16 August 2026:** First commit of the new app. Its message records five defects the automated checks had passed.
-- **17 August 2026:** The data platform, 38 tables, and three more defects no automated check had seen.
-- **21 August 2026:** The rebuild took over this address.
-- **5 November 2026:** Moved to a new host.
-
-## Tell me what you are building
-
-The first call is free and lasts thirty minutes. If this route suits your job better than I do, that is what you will hear from me.
-
-[Contact](https://aoneahsan.com/contact)
-
-[The other routes](/compare)
+[Compare the other routes](/compare/)
 
 Last checked 28 November 2026

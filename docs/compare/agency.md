@@ -1,85 +1,29 @@
 ---
-title: "Hiring an agency or hiring me — Ahsan Mahmood"
-description: "When an agency is the better choice than one developer, what a team under one contract gets you, and what I do differently with AI agents."
+title: "Agency hiring checklist for a software build"
+description: "What to ask an agency about staffing, handovers, support and price before putting a multi-person build under one contract."
 slug: /compare/agency
 ---
 
+An agency is a good choice when your deadline needs several specialists working at the same time. It can put design, development and support under one contract. The useful question is who will do each job after the proposal is signed.
 
-An agency sells you a team under one contract. I am one developer who directs AI agents. For some jobs the team is plainly the better buy.
+## Ask who will actually build it
 
-Choose it when the work needs several people at the same hour.
+A proposal can name a team without telling you who is allocated to your work. Ask for the roles, the expected time from each role and the person who can answer a technical question without routing it through an account manager. If a designer and developer need to settle a decision together, find out how that happens.
 
-## Where this route is right
+An agency's bench can protect a schedule when someone leaves or falls ill. Ask how a replacement learns the code and who checks a handover. That is a fair reason to choose a team over one developer.
 
-An agency is the better choice when the work needs several people at the same hour: a large build on a fixed date, brand and illustration alongside the code, or round-the-clock support with a rota behind it. I am one person, and I am not a designer.
+## Compare the written scopes
 
-It is also right when you want one contract to cover design, development and support for years, with the agency deciding who does each part.
+Give each agency the same brief. Ask each to name the first release, the work outside the quote, how changes are priced and what support begins after launch. A cheaper number with a smaller release is not the same offer.
 
-## What you get
+Clutch's 2026 software development pricing guide reports that projects reviewed on its directory typically cost $10,000–$49,999. That range describes its reviewed projects, not an agency quote for your brief. <a href="https://clutch.co/developers/pricing" target="_blank" rel="nofollow noopener noreferrer">Clutch's pricing guide</a> was checked on 28 November 2026; open the source before using the range in a budget.
 
-A team under one contract: usually an account manager, a designer, a few developers and someone checking the work. You talk to the account manager, and the account manager talks to the people building it.
+## Check the day after launch
 
-A good agency has a process and a bench. If a developer leaves or falls ill, somebody else picks the work up and you may never hear about it.
+Ask where the repository, domain and service accounts will live. Ask who can deploy a fix, who receives an error report, and what happens if the agency changes the people assigned to you. A handover is useful only if somebody outside the original team can follow it.
 
-## What it costs
+I work as one developer directing AI agents, so I cannot promise several people at the same hour or a support rota. My [full agency comparison](https://aoneahsan.com/compare/agency) explains that trade and links to [Rent Party](https://aoneahsan.com/projects/com.aoneahsan.rentparty) and [the portfolio rebuild](https://aoneahsan.com/projects/com.aoneahsan.app) as work you can open. If you want one person to own the decisions from data model through release, [send me the brief](https://aoneahsan.com/contact). If parallel staffing is the requirement, an agency is the clearer fit.
 
-Clutch's 2026 guide says software development projects reviewed on its directory typically cost $10,000–$49,999. That describes projects reported to Clutch, not a quote from every agency.
-
-Ask two or three agencies for a written quote against the same brief you would send me. Compare the scope and support in each quote as carefully as the total.
-
-Sources checked 28 November 2026: <a href="https://clutch.co/developers/pricing" target="_blank" rel="nofollow noopener noreferrer">Clutch, Software Development Company Pricing Guide 2026 (checked 28 November 2026)</a>.
-
-## Where I am different
-
-You talk to the person doing the work. The person who models the data also writes the security rules, packages the Android build and answers the store reviewer, so nothing gets lost between a brief and a developer.
-
-The team I direct is AI agents rather than staff. They write the code far faster than I can, and I decide what they build, review what comes back and run it before you hear about it. There is no handover between people for a detail to fall through.
-
-The handover assumes I am not available: full IP transfer, and documentation that matches the code.
-
-## Who should pick which
-
-Each route in one line, me included. The page for each route says more.
-
-| Route | Pick it when |
-|---|---|
-| **An agency** | Choose it when the work needs several people at the same hour. |
-| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
-| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
-| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
-| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
-| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
-
-## What you can check
-
-My side of this rests on the products below. Each one opens, and each date comes from its commit history or my own project records.
-
-### [Rent Party](https://aoneahsan.com/projects/com.aoneahsan.rentparty)
-
-A property-trading party game you can play online or around one phone.
-
-- **5 October 2026:** First commit.
-- **6 October 2026:** A live site with the design system and the shell, and no game in it yet.
-- **7 October 2026:** The rules engine and the computer players.
-- **8 October 2026:** Online rooms, the lobby and invites committed.
-- **7 November 2026:** Still being fixed and finished, a month on.
-
-### [Ahsan Mahmood Portfolio](https://aoneahsan.com/projects/com.aoneahsan.app)
-
-This site, rebuilt from nothing.
-
-- **31 July 2026:** Planning and the first design pages.
-- **16 August 2026:** First commit of the new app. Its message records five defects the automated checks had passed.
-- **17 August 2026:** The data platform, 38 tables, and three more defects no automated check had seen.
-- **21 August 2026:** The rebuild took over this address.
-- **5 November 2026:** Moved to a new host.
-
-## Tell me what you are building
-
-The first call is free and lasts thirty minutes. If this route suits your job better than I do, that is what you will hear from me.
-
-[Contact](https://aoneahsan.com/contact)
-
-[The other routes](/compare)
+[Compare the other routes](/compare/)
 
 Last checked 28 November 2026

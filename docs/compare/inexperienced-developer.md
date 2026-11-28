@@ -1,79 +1,29 @@
 ---
-title: "An inexperienced developer or me — Ahsan Mahmood"
-description: "When a newer developer is enough, what you take on when you hire one, and what 8+ years of hands-on work changes when the code comes from AI agents."
+title: "When to hire a newer developer"
+description: "A practical checklist for deciding whether a newer developer has enough review, scope and time to deliver a small software job."
 slug: /compare/inexperienced-developer
 ---
 
+Hire a newer developer when the task has a small boundary and somebody experienced can review the result. A brochure site, an internal script or a prototype that you expect to replace can fit. The reviewer is part of the plan, even if that person is not writing the code.
 
-A newer developer costs less and often works hard. What you are short of is someone who has already seen how this kind of project goes wrong.
+## Give the task a finish line
 
-Choose it when the job is small and the mistakes are cheap.
+Write the deliverable as a behavior you can try, rather than a technology list. Include the input, the expected output and one failure case. A task that keeps gaining accounts, payments or sensitive data has moved beyond the small job you first described.
 
-## Where this route is right
+Set aside time for review before the release date. If there is no senior on your side, ask the developer who will decide the architecture and inspect the changes. Energy and a low rate do not create that missing role.
 
-This is the better choice when the job is small and the mistakes are cheap: a brochure site, an internal script, a prototype you will throw away.
+## Ask for evidence of the work
 
-It is also right when you already have a senior who can review the work and you want to train someone. Paying me for that buys more than you need.
+Have the developer show the feature running with a real example. Check who owns the repository and how the next person will start the project. A written note about one awkward decision is more useful than a large document assembled after delivery.
 
-## What you get
+The US Bureau of Labor Statistics does not label an entry-level software developer wage. Its May 2025 figure says the lowest-paid tenth of US software developers earned less than $82,460 a year. That is an employee wage in the United States, not a freelance quote or a rate for every newer developer. The <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">BLS occupation page</a> was checked on 28 November 2026; read the source if you are using it for a hiring budget.
 
-A lower rate and, often, real energy. Someone early in their career will usually take work a senior would turn down, and plenty of them learn quickly.
+## Where my experience changes the choice
 
-You also become the senior. Someone has to decide the architecture, read the code and spot what will break in a year. If nobody does, it does not get done.
+I have shipped production software since January 2018. [Video Controls Plus](https://aoneahsan.com/projects/com.aoneahsan.videocontrolsplus) and [LabFlow](https://aoneahsan.com/projects/com.aoneahsan.labflow) show different kinds of work that stayed in development well beyond a first commit. My [full comparison](https://aoneahsan.com/compare/inexperienced-developer) explains what I check when AI agents write code and why I can take over a wrong turn by hand.
 
-## What it costs
+For a bounded job with a reviewer already in place, that experience may be more than you need. For a product whose failures will be expensive to undo, [tell me what you are building](https://aoneahsan.com/contact) and who will own it after launch.
 
-The US Bureau of Labor Statistics does not split developer pay by experience. Its nearest figure is the bottom of the range: in May 2025 the lowest-paid tenth of US software developers earned less than $82,460 a year.
-
-That is a US employee's wage, not a freelance rate, and pay in other countries is very different.
-
-Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 28 November 2026)</a>
-
-## Where I am different
-
-I have been shipping production software since January 2018, at five companies and then on my own. Much of that experience is a list of things I have already got wrong. The exam platform went down because a free-tier read quota ran out, and every list query I have written since has carried an explicit limit.
-
-Experience also decides what happens with AI agents. An agent writes whatever it is told, with the same confidence whether the idea is good or bad. Knowing which is which is the part of the job I kept for myself.
-
-And I can still write it by hand. When an agent goes the wrong way, I can see where, and I can take over rather than asking it to guess again.
-
-## Who should pick which
-
-Each route in one line, me included. The page for each route says more.
-
-| Route | Pick it when |
-|---|---|
-| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
-| **An inexperienced developer** | Choose it when the job is small and the mistakes are cheap. |
-| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
-| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
-| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
-| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
-
-## What you can check
-
-My side of this rests on the products below. Each one opens, and each date comes from its commit history or my own project records.
-
-### [Video Controls Plus](https://aoneahsan.com/projects/com.aoneahsan.videocontrolsplus)
-
-Playback speed, loops and shortcuts on any HTML5 video, for Chrome, Firefox and Edge.
-
-- **21 March 2022:** First commit.
-- **7 November 2026:** Latest commit I checked, more than four years on.
-
-### [LabFlow](https://aoneahsan.com/projects/com.aoneahsan.labflow)
-
-A multi-tenant laboratory information system across three production surfaces.
-
-- **23 July 2025:** First commit.
-- **7 November 2026:** Latest commit I checked, still in work.
-
-## Tell me what you are building
-
-The first call is free and lasts thirty minutes. If this route suits your job better than I do, that is what you will hear from me.
-
-[Contact](https://aoneahsan.com/contact)
-
-[The other routes](/compare)
+[Compare the other routes](/compare/)
 
 Last checked 28 November 2026

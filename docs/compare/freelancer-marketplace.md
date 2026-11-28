@@ -1,79 +1,29 @@
 ---
-title: "A marketplace freelancer or me — Ahsan Mahmood"
-description: "When a large freelancer marketplace is the better route, what its escrow really protects, and how you can check my work before writing to me."
+title: "Choose a marketplace freelancer for a bounded job"
+description: "How to write a small software brief, compare bids and use marketplace escrow without mistaking a rating for technical proof."
 slug: /compare/freelancer-marketplace
 ---
 
+A marketplace is useful when one task has a clear end and you want payment held until you approve it. A bug fix, a single screen from an existing design or a landing page can fit. The brief should make acceptance visible to both sides.
 
-A marketplace gives you a long list of people and a way to hold the money until you approve. The difficulty is telling, before you have paid, which kind of person you have found.
+## Make the job small enough to quote
 
-Choose it for a small job with a clear finish.
+Show the current page or error, describe the exact change and say how you will test it. Name the files or account access you can provide. Ask bidders what they need before they begin. If a bid depends on assumptions about data or existing code, settle those assumptions before choosing the lowest figure.
 
-## Where this route is right
+A profile rating records earlier buyers' experience with earlier jobs. Look for an example close to yours, then ask the bidder to explain one decision in that work. That tells you more than a star count alone.
 
-For a small job with a clear finish, a marketplace is hard to beat: a bug fix, a landing page, one screen built from a design you already have.
+## Understand what escrow covers
 
-Its escrow and dispute process are also real protection, and a direct arrangement with me does not come with them. If that matters most to you, stay on the platform.
+The platform can hold a payment and provide a dispute route. It does not inspect your code, run your release or maintain your service afterward. Put the review and handover in the agreed deliverable: repository access, a way to run the work and a short record of what changed.
 
-## What you get
+Freelancer.com lists an employer fee of 3% or $3, whichever is greater, when a fixed-price project is awarded; hourly projects carry 3% of each payment. The freelancer's own rate is separate. That is one platform's published fee. Its <a href="https://www.freelancer.com/feesandcharges" target="_blank" rel="nofollow noopener noreferrer">fees and charges page</a> was checked on 28 November 2026.
 
-A search box, a long list of profiles, and bids that arrive quickly. You choose from ratings, a portfolio and a short message, and the platform holds the money until you approve the work.
+## When to use a direct arrangement
 
-The person you get might be excellent. A rating tells you that earlier buyers were happy with earlier jobs, and those jobs may look nothing like yours.
+I can show [ClearHire](https://aoneahsan.com/projects/com.aoneahsan.clearhire) and [LifeWell](https://aoneahsan.com/projects/com.aoneahsan.lifewell) as products rather than ask you to rely on a marketplace rating. My [full comparison](https://aoneahsan.com/compare/freelancer-marketplace) explains why I scope a product before giving a fixed number.
 
-## What it costs
+A direct call and written scope take longer than selecting a bid. For one bounded change, that overhead may not earn its place. For a product whose build, data and release need one owner, [send me the brief](https://aoneahsan.com/contact) and I will tell you whether the scope fits.
 
-Freelancer.com lists an employer fee of 3% or $3, whichever is greater, when a fixed-price project is awarded. Its hourly-project fee is 3% of each payment. The freelancer sets the project rate separately.
-
-That is one marketplace's published fee, not a universal rate. Read the fee page for the service you use before accepting a bid.
-
-Sources checked 28 November 2026: <a href="https://www.freelancer.com/feesandcharges" target="_blank" rel="nofollow noopener noreferrer">Freelancer.com, fees and charges for employers (checked 28 November 2026)</a>.
-
-## Where I am different
-
-You do not have to trust a rating. Everything I have built that can be shown is on this site with a link that opens it: you can use the live products before you write to me.
-
-Scoping happens on a call, before any number. A fixed number attached to an unscoped brief is a number one of us is going to be unhappy about, and the call is where I say whether I am the right person.
-
-The cost of that is time up front. A call and a written scope are slower than accepting a bid, and for a small job they are not worth it.
-
-## Who should pick which
-
-Each route in one line, me included. The page for each route says more.
-
-| Route | Pick it when |
-|---|---|
-| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
-| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
-| [A vibe coder](/compare/vibe-coder/) | Choose it when you want to test an idea on real people this week. |
-| **A freelancer from a large marketplace** | Choose it for a small job with a clear finish. |
-| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
-| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
-
-## What you can check
-
-My side of this rests on the products below. Each one opens, and each date comes from its commit history or my own project records.
-
-### [ClearHire](https://aoneahsan.com/projects/com.aoneahsan.clearhire)
-
-A hiring platform built around one idea: employment claims should be checkable.
-
-- **21 November 2025:** First commit.
-- **7 November 2026:** Latest commit I checked, still in work.
-
-### [LifeWell](https://aoneahsan.com/projects/com.aoneahsan.lifewell)
-
-The people and moments of your life, in one place, on the web and Android.
-
-- **25 August 2025:** First commit.
-- **7 November 2026:** Latest commit I checked, still in work.
-
-## Tell me what you are building
-
-The first call is free and lasts thirty minutes. If this route suits your job better than I do, that is what you will hear from me.
-
-[Contact](https://aoneahsan.com/contact)
-
-[The other routes](/compare)
+[Compare the other routes](/compare/)
 
 Last checked 28 November 2026

@@ -1,83 +1,27 @@
 ---
-title: "A vibe coder or me — Ahsan Mahmood"
-description: "When generating an app with AI and no engineering background is the right call, and what changes when someone reads, runs and checks what the agents wrote."
+title: "Use an AI-generated prototype, then decide what to keep"
+description: "A checklist for testing an idea quickly with an AI app builder and deciding when a prototype needs engineering review."
 slug: /compare/vibe-coder
 ---
 
+Use an AI app builder when the question is whether people want the idea. A working screen can be enough to put in front of a few users this week. You do not need to commission a production system to learn whether they can complete the first task.
 
-A vibe coder describes an app to an AI tool and ships what comes out, without an engineering background behind it. I use the same kind of tools, so speed is not what separates us.
+## Decide what the prototype must prove
 
-Choose it when you want to test an idea on real people this week.
+Pick one user action and watch someone try it. If they cannot find the action or do not value the result, change the idea before adding infrastructure. Save the prompt, the generated code and the feedback so the next build begins from what you learned.
 
-## Where this route is right
+Do not use the first visual finish as a security review. When the prototype will hold real accounts, payments or private records, someone has to inspect authorization, error paths, quotas and deployment. The generated app cannot certify those conditions by saying it is ready.
 
-For a demo, a landing page or an idea you want to try on real people this week, this is the right call. Nobody should pay a senior developer to find out whether anyone wants the thing.
+## Budget for the tool and the person checking it
 
-If it works, you will know what to build properly, and you will have spent very little to learn it.
+Bolt lists Pro at $25 a month with monthly billing. Lovable lists Pro at $25 a month with 100 monthly credits. Replit publishes separate plans and allowances. Those are tool prices, not the cost of maintaining the resulting app. Sources checked on 28 November 2026: <a href="https://bolt.new/pricing" target="_blank" rel="nofollow noopener noreferrer">Bolt pricing</a>, <a href="https://lovable.dev/pricing" target="_blank" rel="nofollow noopener noreferrer">Lovable pricing</a> and <a href="https://replit.com/pricing" target="_blank" rel="nofollow noopener noreferrer">Replit pricing</a>. Read the current limits before choosing one.
 
-## What you get
+## If the test works
 
-Someone with no engineering background, or you yourself, describing an app to an AI tool and shipping what comes out. The first version can appear in an afternoon, and it can look finished.
+Decide whether to harden the prototype or rebuild from the findings. Ask whoever takes it on to show a non-admin sign-in, one forbidden data read, a failed network request and the route after a fresh load. Those checks expose a different class of problem from a screenshot.
 
-What you do not get is anyone who can tell you whether it is finished. The tool will say that it is.
+I use AI agents too. I decide what they build, read the code and run the result. The [full comparison](https://aoneahsan.com/compare/vibe-coder) shows how defects slipped past automated checks during [my portfolio rebuild](https://aoneahsan.com/projects/com.aoneahsan.app), and [CallVault](https://aoneahsan.com/projects/com.aoneahsan.callvault) is an Android and web example. If the idea has passed its first user test and now needs a release, [send me the brief](https://aoneahsan.com/contact). If the idea is still untested, build the prototype first.
 
-## What it costs
-
-Bolt lists a Pro plan at $25 a month with monthly billing. Lovable's docs list Pro from $25 a month for 100 credits. Replit lists its plans separately; check each provider's current allowance as well as its price.
-
-Those are tool subscriptions. Someone still has to check the work, maintain it and pay for what the finished app uses.
-
-Sources checked 28 November 2026: <a href="https://bolt.new/pricing" target="_blank" rel="nofollow noopener noreferrer">Bolt, pricing (monthly billing, checked 28 November 2026)</a>, <a href="https://docs.lovable.dev/introduction/subscription-plans" target="_blank" rel="nofollow noopener noreferrer">Lovable, subscription plans (checked 28 November 2026)</a>, <a href="https://replit.com/pricing" target="_blank" rel="nofollow noopener noreferrer">Replit, pricing (checked 28 November 2026)</a>.
-
-## Where I am different
-
-The difference is what happens after the agent says it is done. I read the code, run the real flow as a real user, check the security rules and look at what the database allows. A demo and a product look the same until someone signs in with the wrong account, a quota runs out or the store reviewer writes back.
-
-A green build is not evidence that a feature works. The first two days of rebuilding this site, below, are the example I would point at: eight defects that the automated checks had passed.
-
-That review is the slow part, and it stays with me. Agents made the writing fast; they did not make the checking fast.
-
-## Who should pick which
-
-Each route in one line, me included. The page for each route says more.
-
-| Route | Pick it when |
-|---|---|
-| [An agency](/compare/agency/) | Choose it when the work needs several people at the same hour. |
-| [An inexperienced developer](/compare/inexperienced-developer/) | Choose it when the job is small and the mistakes are cheap. |
-| **A vibe coder** | Choose it when you want to test an idea on real people this week. |
-| [A freelancer from a large marketplace](/compare/freelancer-marketplace/) | Choose it for a small job with a clear finish. |
-| [Doing it in-house](/compare/in-house/) | Choose it when the software is the business and needs someone every day for years. |
-| **Hiring me** | Choose me when one person should own the whole product, from the data model to the store release, and you want to use what I have built before you write to me. |
-
-## What you can check
-
-My side of this rests on the products below. Each one opens, and each date comes from its commit history or my own project records.
-
-### [Ahsan Mahmood Portfolio](https://aoneahsan.com/projects/com.aoneahsan.app)
-
-This site, rebuilt from nothing.
-
-- **31 July 2026:** Planning and the first design pages.
-- **16 August 2026:** First commit of the new app. Its message records five defects the automated checks had passed.
-- **17 August 2026:** The data platform, 38 tables, and three more defects no automated check had seen.
-- **21 August 2026:** The rebuild took over this address.
-- **5 November 2026:** Moved to a new host.
-
-### [CallVault](https://aoneahsan.com/projects/com.aoneahsan.callvault)
-
-An offline-first Android app that records your own calls, with a web dashboard. Deliberately not on Google Play.
-
-- **22 June 2026:** First commit. Call capture, browsing and playback were committed the same day.
-- **24 June 2026:** The web dashboard went up.
-- **17 September 2026:** The backend went live with its plans and release engineering, nearly three months later. The fast part was the first two days.
-
-## Tell me what you are building
-
-The first call is free and lasts thirty minutes. If this route suits your job better than I do, that is what you will hear from me.
-
-[Contact](https://aoneahsan.com/contact)
-
-[The other routes](/compare)
+[Compare the other routes](/compare/)
 
 Last checked 28 November 2026
