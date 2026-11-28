@@ -27,7 +27,7 @@ Clutch's 2026 guide says software development projects reviewed on its directory
 
 Ask two or three agencies for a written quote against the same brief you would send me. Compare the scope and support in each quote as carefully as the total.
 
-Sources checked 27 November 2026: <a href="https://clutch.co/developers/pricing" target="_blank" rel="nofollow noopener noreferrer">Clutch, Software Development Company Pricing Guide 2026 (checked 27 November 2026)</a>.
+Sources checked 28 November 2026: <a href="https://clutch.co/developers/pricing" target="_blank" rel="nofollow noopener noreferrer">Clutch, Software Development Company Pricing Guide 2026 (checked 28 November 2026)</a>.
 
 ## Where I am different
 
@@ -82,4 +82,4 @@ The first call is free and lasts thirty minutes. If this route suits your job be
 
 [The other routes](/compare)
 
-Last checked 7 November 2026
+Last checked 28 November 2026

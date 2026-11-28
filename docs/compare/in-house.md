@@ -27,7 +27,7 @@ In May 2025 the median wage of a US software developer was $135,980 a year. The 
 
 That is the wage alone. Recruiting, benefits and equipment come on top of it.
 
-Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 27 November 2026)</a>
+Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 28 November 2026)</a>
 
 ## Where I am different
 
@@ -79,4 +79,4 @@ The first call is free and lasts thirty minutes. If this route suits your job be
 
 [The other routes](/compare)
 
-Last checked 7 November 2026
+Last checked 28 November 2026

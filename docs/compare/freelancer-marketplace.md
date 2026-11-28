@@ -27,7 +27,7 @@ Freelancer.com lists an employer fee of 3% or $3, whichever is greater, when a f
 
 That is one marketplace's published fee, not a universal rate. Read the fee page for the service you use before accepting a bid.
 
-Sources checked 27 November 2026: <a href="https://www.freelancer.com/feesandcharges" target="_blank" rel="nofollow noopener noreferrer">Freelancer.com, fees and charges for employers (checked 27 November 2026)</a>.
+Sources checked 28 November 2026: <a href="https://www.freelancer.com/feesandcharges" target="_blank" rel="nofollow noopener noreferrer">Freelancer.com, fees and charges for employers (checked 28 November 2026)</a>.
 
 ## Where I am different
 
@@ -76,4 +76,4 @@ The first call is free and lasts thirty minutes. If this route suits your job be
 
 [The other routes](/compare)
 
-Last checked 7 November 2026
+Last checked 28 November 2026

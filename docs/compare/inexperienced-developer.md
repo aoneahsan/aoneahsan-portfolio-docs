@@ -27,7 +27,7 @@ The US Bureau of Labor Statistics does not split developer pay by experience. It
 
 That is a US employee's wage, not a freelance rate, and pay in other countries is very different.
 
-Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 27 November 2026)</a>
+Source: <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank" rel="nofollow noopener noreferrer">US Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers (May 2025 wages, checked 28 November 2026)</a>
 
 ## Where I am different
 
@@ -76,4 +76,4 @@ The first call is free and lasts thirty minutes. If this route suits your job be
 
 [The other routes](/compare)
 
-Last checked 7 November 2026
+Last checked 28 November 2026

@@ -27,7 +27,7 @@ Bolt lists a Pro plan at $25 a month with monthly billing. Lovable's docs list P
 
 Those are tool subscriptions. Someone still has to check the work, maintain it and pay for what the finished app uses.
 
-Sources checked 27 November 2026: <a href="https://bolt.new/pricing" target="_blank" rel="nofollow noopener noreferrer">Bolt, pricing (monthly billing, checked 27 November 2026)</a>, <a href="https://docs.lovable.dev/introduction/subscription-plans" target="_blank" rel="nofollow noopener noreferrer">Lovable, subscription plans (checked 27 November 2026)</a>, <a href="https://replit.com/pricing" target="_blank" rel="nofollow noopener noreferrer">Replit, pricing (checked 27 November 2026)</a>.
+Sources checked 28 November 2026: <a href="https://bolt.new/pricing" target="_blank" rel="nofollow noopener noreferrer">Bolt, pricing (monthly billing, checked 28 November 2026)</a>, <a href="https://docs.lovable.dev/introduction/subscription-plans" target="_blank" rel="nofollow noopener noreferrer">Lovable, subscription plans (checked 28 November 2026)</a>, <a href="https://replit.com/pricing" target="_blank" rel="nofollow noopener noreferrer">Replit, pricing (checked 28 November 2026)</a>.
 
 ## Where I am different
 
@@ -80,4 +80,4 @@ The first call is free and lasts thirty minutes. If this route suits your job be
 
 [The other routes](/compare)
 
-Last checked 7 November 2026
+Last checked 28 November 2026
