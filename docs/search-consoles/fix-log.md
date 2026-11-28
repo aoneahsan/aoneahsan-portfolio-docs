@@ -3,6 +3,16 @@
 Newest first. One section per filed issue or verified defect. `live-verified` is ours; `indexed` belongs to Google. Not published:
 `docusaurus.config.ts` excludes `search-consoles/**`. Procedure: skill `aoneahsan-cccs-search-issue-remediation`.
 
+## Ecosystem and developer pages published · 2026-11-28 · `main@3762417`, `gh-pages@810c9db`
+
+The approved English ecosystem collection, 23 product details and developer page are live. `yarn typecheck`
+and `yarn build` passed; the post-build SEO contract checked 44 pages, 35 sitemap URLs and seven redirects.
+The live `/ecosystem/` initial HTML matches the local build SHA-256
+`fb68a463cc92e7a5aeb0c21979d4ab455520b2e78d0e39ee96036b68d5c8ccde`.
+Chrome for Testing rendered the local and live home at 1440 and `/ecosystem/` at 390 with visible content and
+no uncaught errors. The new URLs have not been observed in Search Console, Bing or Yandex; the portfolio
+root's `SEARCH-ENGINE-DESKTOP-HANDOFF.md` names those checks. This publication does not close issue #1.
+
 ## Duplicate home and comparison descriptions · 2026-11-27 · `main@9068620`, `gh-pages@0f632dd`
 
 The ten indexable docs sitemap pages had one duplicated meta description: `/` and `/compare/` used the same
