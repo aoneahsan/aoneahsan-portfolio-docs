@@ -3,6 +3,12 @@
 Newest first. One section per filed issue or verified defect. `live-verified` is ours; `indexed` belongs to Google. Not published:
 `docusaurus.config.ts` excludes `search-consoles/**`. Procedure: skill `aoneahsan-cccs-search-issue-remediation`.
 
+## Comparison guides have distinct copy · 2026-11-28 · `main@9dadd77`, `gh-pages@a96b3d5`
+
+SA-P32 found that the six docs comparison pages repeated 74.7–80.3% of the matching app page's rendered five-word sequences. The docs pages now help a reader choose and brief a build route, while linking to the app's full argument. Measured overlap is 0.9–3.5% of the smaller page for all six pairs (`search-audit-owner-handoff` evidence `compare-duplicate-probes.json`). The approved prices and dated sources remain; external sources are `nofollow` and portfolio links are followed.
+
+`yarn typecheck` and `yarn build` passed, including the docs SEO contract (44 built pages, 35 sitemap URLs, seven redirects). All six live comparison HTML files match the built files byte for byte. Chrome for Testing rendered `/compare/` at 1440 px and `/compare/vibe-coder/` at 390 px with visible H1s, no horizontal overflow and no uncaught exception. IndexNow accepted six changed docs URLs (HTTP 200). Search-engine indexing and traffic require the root `SEARCH-ENGINE-DESKTOP-HANDOFF.md`; publication does not establish either.
+
 ## Publisher identity profile parity · 2026-11-28 · `main@f1130ee`, `gh-pages@b83ddc2`
 
 The docs home included two additional Person `sameAs` entries beyond the approved owner profile. The publisher graph now reads the vendored `src/data/owner-profile.json` for Person and Organization names, aliases, URLs and profiles. The post-build SEO contract compares every public page's graph to that profile; it failed on all 34 previous public HTML pages, then passed after the fresh build. `yarn typecheck` and `yarn build` passed; the build contract checked 44 files, 35 sitemap URLs and seven redirects.
