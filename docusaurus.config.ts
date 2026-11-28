@@ -2,6 +2,7 @@ import type {Config} from '@docusaurus/types';
 import feedPlugin from './plugins/feed';
 import {OTHER_PLATFORMS} from './src/data/platforms';
 import {SEO_REDIRECTS} from './plugins/seo-redirects.mts';
+import ownerProfile from './src/data/owner-profile.json';
 
 const siteUrl = 'https://docs.aoneahsan.com';
 
@@ -20,32 +21,22 @@ const config: Config = {
           {
             '@type': 'Person',
             '@id': 'https://aoneahsan.com/#person',
-            name: 'Ahsan Mahmood',
-            alternateName: ['Ahsan', 'aoneahsan', 'a1ahsan', 'A1 Ahsan', 'AOne Ahsan'],
-            url: 'https://aoneahsan.com',
-            jobTitle: 'Founder and developer, Zaions',
+            name: ownerProfile.person.name,
+            alternateName: ownerProfile.person.alternateName,
+            url: ownerProfile.person.url,
+            jobTitle: ownerProfile.person.jobTitle,
             worksFor: {'@id': 'https://zaions.com/#organization'},
-            sameAs: [
-              'https://aoneahsan.com',
-              'https://zaions.com',
-              'https://github.com/aoneahsan',
-              'https://www.linkedin.com/in/aoneahsan',
-              'https://www.npmjs.com/~aoneahsan',
-              'https://www.upwork.com/freelancers/aoneahsan',
-              'https://orcid.org/0009-0006-2311-8687',
-              'https://github.com/aoneahsan/aoneahsan-portfolio-docs',
-              'https://play.google.com/store/apps/details?id=com.aoneahsan.app',
-            ],
+            sameAs: ownerProfile.person.sameAs,
           },
           {
             '@type': 'Organization',
             '@id': 'https://zaions.com/#organization',
-            name: 'Zaions',
-            alternateName: ['Zaions products', 'Zaions projects'],
-            url: 'https://zaions.com',
-            logo: 'https://zaions.com/assets/logos/zaions-mark.png',
+            name: ownerProfile.organization.name,
+            alternateName: ownerProfile.organization.alternateName,
+            url: ownerProfile.organization.url,
+            logo: ownerProfile.organization.logo,
             founder: {'@id': 'https://aoneahsan.com/#person'},
-            sameAs: ['https://zaions.com', 'https://github.com/aoneahsan'],
+            sameAs: ownerProfile.organization.sameAs,
           },
           {
             '@type': 'WebSite',

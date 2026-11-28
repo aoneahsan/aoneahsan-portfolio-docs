@@ -24,6 +24,10 @@ const ORG_ID = 'https://zaions.com/#organization';
 const PAGE_EXCEPTIONS = new Set(['404.html', 'search/index.html']);
 
 const siteDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const ownerProfile = JSON.parse(readFileSync(path.join(siteDir, 'src/data/owner-profile.json'), 'utf8')) as {
+  person: {name: string; alternateName: string[]; sameAs: string[]; jobTitle: string};
+  organization: {name: string; alternateName: string[]; url: string; logo: string; sameAs: string[]};
+};
 const buildDir = path.join(siteDir, 'build');
 
 function htmlFiles(dir: string): string[] {
@@ -71,8 +75,10 @@ export function pageProblems(html: string, file: string): string[] {
   const person = nodes.find((n) => n['@id'] === PERSON_ID && n['@type'] === 'Person');
   const sameAs = (person?.sameAs ?? []) as string[];
   if (!person) problems.push(`no Person ${PERSON_ID} publisher entity`);
-  else if (!sameAs.includes('https://github.com/aoneahsan') || !sameAs.includes('https://orcid.org/0009-0006-2311-8687')) problems.push('the Person has no full sameAs list');
-  if (!nodes.some((n) => n['@id'] === ORG_ID && n['@type'] === 'Organization')) problems.push(`no Organization ${ORG_ID}`);
+  else if (person.name !== ownerProfile.person.name || person.jobTitle !== ownerProfile.person.jobTitle || JSON.stringify(person.alternateName) !== JSON.stringify(ownerProfile.person.alternateName) || JSON.stringify(sameAs) !== JSON.stringify(ownerProfile.person.sameAs)) problems.push('the Person differs from the approved owner profile');
+  const organization = nodes.find((n) => n['@id'] === ORG_ID && n['@type'] === 'Organization');
+  if (!organization) problems.push(`no Organization ${ORG_ID}`);
+  else if (organization.name !== ownerProfile.organization.name || organization.url !== ownerProfile.organization.url || organization.logo !== ownerProfile.organization.logo || JSON.stringify(organization.alternateName) !== JSON.stringify(ownerProfile.organization.alternateName) || JSON.stringify(organization.sameAs) !== JSON.stringify(ownerProfile.organization.sameAs)) problems.push('the Organization differs from the approved owner profile');
   if (JSON.stringify(graphs).includes('SearchAction')) problems.push('a SearchAction (no search URL is promised)');
   return problems.map((problem) => `${file}: ${problem}`);
 }
