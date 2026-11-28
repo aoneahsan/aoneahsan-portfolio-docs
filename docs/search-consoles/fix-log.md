@@ -13,6 +13,8 @@ Chrome for Testing rendered the local and live home at 1440 and `/ecosystem/` at
 no uncaught errors. The new URLs have not been observed in Search Console, Bing or Yandex; the portfolio
 root's `SEARCH-ENGINE-DESKTOP-HANDOFF.md` names those checks. This publication does not close issue #1.
 
+The 2026-11-28 live sitemap crawl probe read all 35 docs URLs at no more than one request per 300 ms. All 35 returned HTTP 200 with a matching self-canonical, a nonempty title and exactly one H1. The first probe's quoted-attribute-only canonical parser misread Docusaurus's valid unquoted `rel=canonical href=...` tags; the corrected parser rechecked all 35 and found no failure. This is HTTP/HTML evidence, not an indexing observation.
+
 ## Duplicate home and comparison descriptions · 2026-11-27 · `main@9068620`, `gh-pages@0f632dd`
 
 The ten indexable docs sitemap pages had one duplicated meta description: `/` and `/compare/` used the same
